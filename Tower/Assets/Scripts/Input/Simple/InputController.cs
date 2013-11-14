@@ -12,14 +12,12 @@ namespace Tower
 
         void Start()
         {
-
-
+            motors = new List<MoveMotor>();
+            motors.AddRange(GetComponentsInChildren<MoveMotor>().ToList());
         }
 
         void Update()
         {
-            motors = new List<MoveMotor>();
-            motors.AddRange(GetComponentsInChildren<MoveMotor>().ToList());
             foreach (var motor in motors)
             {
                 Vector3 inputDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
@@ -29,9 +27,14 @@ namespace Tower
 
                 if (Input.GetButtonDown("Jump"))
                 {
-                    motor.AddAction(Moves.Jump);
+                    motor.AddAction(new CharacterActionBase(0));
                 }
             }
+        }
+
+        public void AddMotor(MoveMotor motor)
+        {
+            motors.Add(motor);
         }
     }
 }

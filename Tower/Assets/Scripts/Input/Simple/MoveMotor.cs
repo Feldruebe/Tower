@@ -8,18 +8,27 @@ namespace Tower
     {
 
         public Vector3 direction;
-        public List<Moves> movesToDo = new List<Moves>();
+        public List<CharacterActionBase> movesToDo = new List<CharacterActionBase>();
         public float speed;
         public float jumpForce;
         public LayerMask layerMask;
-
-        private bool wasGrounded = false;
         public float gravity = 20;
         public float gravityMax = 20;
         public float fallSpeed = 0;
+        public float motorIsBlockedTime = 0;
+
+        private bool wasGrounded = false;
+        
         // Use this for initialization
         void Start()
         {
+
+        }
+
+        void Update()
+        {
+            if(motorIsBlockedTime > 0)
+                motorIsBlockedTime -= Time.deltaTime;
         }
 
         void FixedUpdate()
@@ -27,7 +36,7 @@ namespace Tower
             if (TestIfGrounded())
             {
                 wasGrounded = true;
-                fallSpeed = -gravityMax;
+                fallSpeed = -gravityMax/2.0f;
             }
             fallSpeed -= gravity;
             direction = direction * Time.deltaTime * speed;
@@ -44,27 +53,15 @@ namespace Tower
                                     Mathf.Clamp(direction.z, -20, 20));
             rigidbody.AddForce(direction, ForceMode.VelocityChange);
 
-
         }
 
         private void DoAction()
         {
-            if (movesToDo.Count == 0)
+            if (movesToDo.Count == 0 || motorIsBlockedTime > 0)
                 return;
 
-            switch (movesToDo[0])
-            {
-                case Moves.Jump:
-                    if (TestIfGrounded())
-                    {
-                        //rigidbody.velocity = new Vector3(rigidbody.velocity.x, jumpForce, rigidbody.velocity.z);
-                        direction = new Vector3(direction.x, jumpForce, direction.z);
-                        fallSpeed = jumpForce;
-                    }
-                    break;
-                default:
-                    break;
-            }
+            movesToDo[0].DoAction(this);
+            motorIsBlockedTime = movesToDo[0].ActionTime;
             movesToDo.RemoveAt(0);
 
         }
@@ -75,15 +72,13 @@ namespace Tower
             //direction = Vector3.zero;
         }
 
-        internal void AddAction(Moves move)
+        internal void AddAction(CharacterActionBase action)
         {
-            movesToDo.Add(move);
+            movesToDo.Add(action);
         }
 
         public bool TestIfGrounded()
         {
-            //LayerMask layer = LayerHelper.GetLayerMaskByName("Ground", "Geometry");
-            //print((int)layer);
             if (Physics.CheckCapsule(transform.position + new Vector3(-0.3f, -0.1f, 0), transform.position + new Vector3(0.3f, -0.1f, 0), 0.1f, layerMask))
             {
                 return true;

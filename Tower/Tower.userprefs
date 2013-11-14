@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Input\Simple\MoveMotor.cs">
+    <Files>
+      <File FileName="Tower.sln" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Input\Simple\MoveMotor.cs" Line="59" Column="1" />
+      <File FileName="c:\Users\Michael\Documents\GitHub\Tower\Tower\Assets\Stuff\Holoville\HOTween Extensions\HOTweenManager\HOTweenManager.cs" Line="1" Column="1" />
+      <File FileName="c:\Users\Michael\Documents\GitHub\Tower\Tower\Assets\Stuff\Holoville\HOTween Extensions\HOTweenManager\Editor\Core\HOTweenEditorGUI.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

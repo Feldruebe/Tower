@@ -4,13 +4,12 @@
 SceneSettings:
   m_ObjectHideFlags: 0
   m_PVSData: 
-  m_QueryMode: 1
   m_PVSObjectsArray: []
   m_PVSPortalsArray: []
   m_OcclusionBakeSettings:
-    viewCellSize: 1
-    bakeMode: 2
-    memoryUsage: 10485760
+    smallestOccluder: 5
+    smallestHole: .25
+    backfaceThreshold: 100
 --- !u!104 &2
 RenderSettings:
   m_Fog: 0
@@ -23,6 +22,7 @@ RenderSettings:
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: .5
   m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 0}
   m_ObjectHideFlags: 0
@@ -146,6 +146,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -178,6 +181,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!1 &72264227
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +223,7 @@ GameObject:
   - 65: {fileID: 224451746}
   m_Layer: 12
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -423,6 +429,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -455,6 +464,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!1 &411928360
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,6 +545,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!33 &498419996
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -597,6 +612,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -629,6 +647,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!1 &579809889
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,6 +782,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -793,6 +817,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!4 &636074339
 Transform:
   m_ObjectHideFlags: 0
@@ -951,6 +978,12 @@ MonoBehaviour:
       endValInt: 0
       endValString: 
       endValColor: {r: 1, g: 1, b: 1, a: 1}
+      endValRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
     duration: .0500000007
     tweenFrom: 0
     paused: 1
@@ -1016,6 +1049,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -1040,6 +1076,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_SortingLayerID: 0
 --- !u!33 &743271348
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1093,11 +1132,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fef997631568914478a6404b50b7f590, type: 2}
       propertyPath: forceResolution.x
-      value: 960
+      value: 1280
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fef997631568914478a6404b50b7f590, type: 2}
       propertyPath: forceResolution.y
-      value: 600
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: fef997631568914478a6404b50b7f590, type: 2}
       propertyPath: cameraSettings.farClipPlane
@@ -1122,6 +1161,22 @@ Prefab:
     - target: {fileID: 2000000, guid: fef997631568914478a6404b50b7f590, type: 2}
       propertyPath: field of view
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: fef997631568914478a6404b50b7f590, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fef997631568914478a6404b50b7f590, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: fef997631568914478a6404b50b7f590, type: 2}
+      propertyPath: m_RenderingPath
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: fef997631568914478a6404b50b7f590, type: 2}
+      propertyPath: m_HDR
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fef997631568914478a6404b50b7f590, type: 2}
@@ -1253,7 +1308,7 @@ MonoBehaviour:
     targetName: transform
     foldout: 1
     isActive: 1
-    creationTime: 1
+    creationTime: 3
     propDatas:
     - _propType: UnityEngine.Vector3, UnityEngine
       _pluginType: Holoville.HOTween.Plugins.Core.PlugVector3, HOTween
@@ -1269,10 +1324,16 @@ MonoBehaviour:
       endValInt: 0
       endValString: 
       endValColor: {r: 1, g: 1, b: 1, a: 1}
+      endValRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
     duration: .0500000007
     tweenFrom: 0
     paused: 1
-    autoKill: 0
+    autoKill: 1
     updateType: 0
     delay: 0
     id: 
@@ -1301,7 +1362,7 @@ MonoBehaviour:
     onCompleteParmVector4: {x: 0, y: 0, z: 0, w: 0}
   globalDelay: 0
   globalTimeScale: 1
-  creationTime: 1
+  creationTime: 3
   destroyAfterSetup: 0
 --- !u!114 &991812356
 MonoBehaviour:
@@ -1334,6 +1395,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -1358,6 +1422,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_SortingLayerID: 0
 --- !u!33 &991812359
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1474,6 +1541,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -1506,6 +1576,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!1 &1212294267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1551,6 +1624,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -1583,6 +1659,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!1 &1236240451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1655,6 +1734,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -1687,6 +1769,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!1 &1256731469
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,30 +1830,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   cameraSettings:
-    clearFlags: 2
-    backgroundColor: {r: .192156866, g: .301960796, b: .474509805, a: 1}
-    cullingMask:
-      serializedVersion: 2
-      m_Bits: 4294967295
     projection: 0
-    transparencySortMode: 2
     orthographicSize: 10
     orthographicPixelsPerMeter: 20
     orthographicOrigin: 1
     orthographicType: 0
+    transparencySortMode: 2
     fieldOfView: 60
-    nearClipPlane: .300000012
-    farClipPlane: 100
     rect:
       serializedVersion: 2
       x: 0
       y: 0
       width: 1
       height: 1
-    depth: 0
-    renderingPath: -1
-    targetTexture: {fileID: 0}
-    hdr: 0
   resolutionOverride:
   - name: Override
     matchBy: 2
@@ -1818,6 +1892,7 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
+  m_OcclusionCulling: 1
 --- !u!4 &1256731475
 Transform:
   m_ObjectHideFlags: 0
@@ -1960,6 +2035,18 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].propDatas.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].propDatas.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
       propertyPath: m_LocalPosition.x
       value: -8.94399834
@@ -2051,6 +2138,238 @@ Prefab:
     - target: {fileID: 11400008, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
       propertyPath: jumpForce
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: _spriteId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1]._targetType
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].target
+      value: 
+      objectReference: {fileID: 991812354}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].targetRoot
+      value: 
+      objectReference: {fileID: 991812353}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1]._targetPath
+      value: AnimatedSprite.transform
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].targetName
+      value: transform
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].foldout
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].creationTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].propDatas.Array.data[0]._propType
+      value: UnityEngine.Vector3, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].propDatas.Array.data[0]._pluginType
+      value: Holoville.HOTween.Plugins.Core.PlugVector3, HOTween
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].propDatas.Array.data[0]._valueType
+      value: UnityEngine.Vector3, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].propDatas.Array.data[0].propName
+      value: localPosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].propDatas.Array.data[0].shortPropType
+      value: Vector3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].propDatas.Array.data[0].isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].propDatas.Array.data[0].endValVector3.x
+      value: .150000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].propDatas.Array.data[0].endValColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].propDatas.Array.data[0].endValColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].propDatas.Array.data[0].endValColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].propDatas.Array.data[0].endValColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].duration
+      value: .0500000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].paused
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].autoKill
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].loopType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].loops
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].timeScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].easeType
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[1].onCompleteParmColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: creationTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2]._targetType
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].target
+      value: 
+      objectReference: {fileID: 991812354}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].targetRoot
+      value: 
+      objectReference: {fileID: 991812353}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2]._targetPath
+      value: AnimatedSprite.transform
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].targetName
+      value: transform
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].foldout
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].creationTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].propDatas.Array.data[0]._propType
+      value: UnityEngine.Vector3, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].propDatas.Array.data[0]._pluginType
+      value: Holoville.HOTween.Plugins.Core.PlugVector3, HOTween
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].propDatas.Array.data[0]._valueType
+      value: UnityEngine.Vector3, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].propDatas.Array.data[0].propName
+      value: localPosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].propDatas.Array.data[0].shortPropType
+      value: Vector3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].propDatas.Array.data[0].isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].propDatas.Array.data[0].endValVector3.x
+      value: .150000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].propDatas.Array.data[0].endValColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].propDatas.Array.data[0].endValColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].propDatas.Array.data[0].endValColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].propDatas.Array.data[0].endValColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].duration
+      value: .0500000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].paused
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].autoKill
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].loopType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].loops
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].timeScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].easeType
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[2].onCompleteParmColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[0].creationTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
+      propertyPath: tweenDatas.Array.data[0].autoKill
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5400000, guid: 9db2295ab2d181440a1c54a587fe41fe, type: 2}
@@ -2339,6 +2658,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!65 &1743103590
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2431,6 +2753,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -2463,6 +2788,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!1 &1789718668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2499,6 +2827,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!65 &1789718670
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2545,7 +2876,7 @@ GameObject:
   - 114: {fileID: 1810454847}
   m_Layer: 8
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2580,6 +2911,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!33 &1810454843
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2610,6 +2944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e1e48b7837cdac4e988542ba9dc8206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RepresentationRoot: {fileID: 0}
 --- !u!114 &1810454847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2645,6 +2980,12 @@ MonoBehaviour:
       endValInt: 0
       endValString: 
       endValColor: {r: 1, g: 1, b: 1, a: 1}
+      endValRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
     duration: 2
     tweenFrom: 0
     paused: 0
@@ -2845,6 +3186,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -2877,6 +3221,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!1 &2063099429
 GameObject:
   m_ObjectHideFlags: 0
@@ -2922,6 +3269,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -2954,6 +3304,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!1 &2117690922
 GameObject:
   m_ObjectHideFlags: 0
@@ -3052,6 +3405,10 @@ Prefab:
       propertyPath: gravity
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11400008, guid: fd9b3d06c8c955b41b1115bf5d907723, type: 2}
+      propertyPath: speed
+      value: 500
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fd9b3d06c8c955b41b1115bf5d907723, type: 2}
   m_RootGameObject: {fileID: 241250208}
@@ -3102,6 +3459,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 1
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -3134,6 +3494,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!1 &2128628657
 GameObject:
   m_ObjectHideFlags: 0
@@ -3146,6 +3509,7 @@ GameObject:
   - 114: {fileID: 2128628660}
   - 82: {fileID: 2128628659}
   - 54: {fileID: 2128628663}
+  - 114: {fileID: 2128628662}
   m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
@@ -3253,7 +3617,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: {x: 0, y: 0, z: 0}
-  movesToDo: 
   speed: 500
   jumpForce: 30
   layerMask:
@@ -3262,6 +3625,19 @@ MonoBehaviour:
   gravity: 1
   gravityMax: 20
   fallSpeed: 0
+  motorIsBlockedTime: 0
+--- !u!114 &2128628662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2128628657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e1e48b7837cdac4e988542ba9dc8206, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RepresentationRoot: {fileID: 881439886}
 --- !u!54 &2128628663
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3322,6 +3698,9 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
   _spriteId: 0
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -3354,6 +3733,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!1 &2144219206
 GameObject:
   m_ObjectHideFlags: 0
@@ -3460,8 +3842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: {x: 0, y: 0, z: 0}
-  movesToDo: 
-  speed: 1000
+  speed: 500
   jumpForce: 50
   layerMask:
     serializedVersion: 2
@@ -3469,6 +3850,7 @@ MonoBehaviour:
   gravity: 2
   gravityMax: 20
   fallSpeed: 0
+  motorIsBlockedTime: 0
 --- !u!54 &2144219210
 Rigidbody:
   m_ObjectHideFlags: 0
