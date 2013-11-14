@@ -14,7 +14,9 @@ namespace Tower
         public LayerMask layerMask;
 
         private bool wasGrounded = false;
-
+        public float gravity = 20;
+        public float gravityMax = 20;
+        public float fallSpeed = 0;
         // Use this for initialization
         void Start()
         {
@@ -22,21 +24,27 @@ namespace Tower
 
         void FixedUpdate()
         {
+            if (TestIfGrounded())
+            {
+                wasGrounded = true;
+                fallSpeed = -gravityMax;
+            }
+            fallSpeed -= gravity;
             direction = direction * Time.deltaTime * speed;
-            direction = new Vector3(direction.x, rigidbody.velocity.y, direction.z);
+            direction = new Vector3(direction.x, fallSpeed, direction.z);
 
             DoAction();
             if (!wasGrounded && TestIfGrounded())
             {
                 direction *= 0.6f;
-                
+
             }
             direction = new Vector3(Mathf.Clamp(direction.x, -20, 20),
-                                    Mathf.Clamp(direction.y, -60, 60),
+                                    Mathf.Clamp(direction.y, -jumpForce, jumpForce),
                                     Mathf.Clamp(direction.z, -20, 20));
             rigidbody.AddForce(direction, ForceMode.VelocityChange);
 
-            wasGrounded = TestIfGrounded();
+
         }
 
         private void DoAction()
@@ -49,7 +57,9 @@ namespace Tower
                 case Moves.Jump:
                     if (TestIfGrounded())
                     {
-                        direction = new Vector3(direction.x, jumpForce, direction.z); 
+                        //rigidbody.velocity = new Vector3(rigidbody.velocity.x, jumpForce, rigidbody.velocity.z);
+                        direction = new Vector3(direction.x, jumpForce, direction.z);
+                        fallSpeed = jumpForce;
                     }
                     break;
                 default:
@@ -74,7 +84,7 @@ namespace Tower
         {
             //LayerMask layer = LayerHelper.GetLayerMaskByName("Ground", "Geometry");
             //print((int)layer);
-            if (Physics.CheckCapsule(transform.position + new Vector3(-0.5f, -0.2f, 0), transform.position + new Vector3(0.5f, -0.2f, 0), 0.1f, layerMask))
+            if (Physics.CheckCapsule(transform.position + new Vector3(-0.3f, -0.1f, 0), transform.position + new Vector3(0.3f, -0.1f, 0), 0.1f, layerMask))
             {
                 return true;
             }

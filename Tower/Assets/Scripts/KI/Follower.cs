@@ -23,17 +23,19 @@ public class Follower : MonoBehaviour {
 
         foreach (var motor in motors)
         {
+            motor.direction = Vector3.zero;
+
             Vector3 dir = (transformToFollow.position - motor.transform.position);
-            if (dir.magnitude < 10 && dir.y > 0.1)
+            if (dir.magnitude > 5)
             {
-                motor.AddAction(Moves.Jump);
+                if (dir.magnitude < 10 && dir.y > 0.1)
+                {
+                    motor.AddAction(Moves.Jump);
+                }
+                dir.y = 0;
+
+                motor.direction = dir.normalized;
             }
-            dir.y = 0;
-
-            motor.direction = dir.normalized;
-
-            
-            
         }
 	}
 }

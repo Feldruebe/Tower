@@ -215,3 +215,11 @@ pip-log.txt
 .mr.developer.cfg
 Library
 Stuff
+Temp
+
+/Tower/Assembly-CSharp-Editor-vs.csproj
+/Tower/Assembly-CSharp-Editor.csproj
+/Tower/Assembly-CSharp-vs.csproj
+/Tower/Assembly-CSharp.csproj
+/Tower/Tower-csharp.sln
+/Tower/Tower.sln

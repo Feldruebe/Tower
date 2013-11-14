@@ -22,7 +22,10 @@ namespace Tower
             motors.AddRange(GetComponentsInChildren<MoveMotor>().ToList());
             foreach (var motor in motors)
             {
-                motor.direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+                Vector3 inputDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+                if (inputDirection.magnitude > 1)
+                    inputDirection.Normalize();
+                motor.direction = inputDirection;
 
                 if (Input.GetButtonDown("Jump"))
                 {

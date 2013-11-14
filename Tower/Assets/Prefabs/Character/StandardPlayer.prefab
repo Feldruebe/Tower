@@ -192,12 +192,12 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 145ee108aecb9144789973fd39e58104, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.44000006, y: 2.92000008, z: .600000024}
-  m_Center: {x: 0, y: 2.07999992, z: 0}
+  m_Size: {x: 1.44000006, y: 3.27999997, z: .600000024}
+  m_Center: {x: 0, y: 1.78999996, z: 0}
 --- !u!82 &8200000
 AudioSource:
   m_ObjectHideFlags: 1
@@ -388,7 +388,7 @@ MonoBehaviour:
   jumpForce: 50
   layerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!114 &11400010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -411,7 +411,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 100006}
   m_Material: {fileID: 13400000, guid: 145ee108aecb9144789973fd39e58104, type: 2}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: .300000012
   m_Height: 1.63999999
   m_Direction: 0
