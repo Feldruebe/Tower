@@ -16,13 +16,14 @@ namespace Tower
         public float gravityMax = 20;
         public float fallSpeed = 0;
         public float motorIsBlockedTime = 0;
+        public bool resetJump = false;
 
         private bool wasGrounded = false;
         
         // Use this for initialization
         void Start()
         {
-
+            
         }
 
         void Update()
@@ -48,9 +49,19 @@ namespace Tower
                 direction *= 0.6f;
 
             }
-            direction = new Vector3(Mathf.Clamp(direction.x, -20, 20),
-                                    Mathf.Clamp(direction.y, -jumpForce, jumpForce),
-                                    Mathf.Clamp(direction.z, -20, 20));
+            if (!resetJump)
+            {
+                direction = new Vector3(Mathf.Clamp(direction.x, -20, 20),
+                                        Mathf.Clamp(direction.y, -jumpForce, jumpForce),
+                                        Mathf.Clamp(direction.z, -20, 20));
+            }
+            else
+            {
+                //direction = new Vector3(Mathf.Clamp(direction.x, -20, 20),
+                //                        0,
+                //                        Mathf.Clamp(direction.z, -20, 20));
+                //resetJump = false;
+            }
             rigidbody.AddForce(direction, ForceMode.VelocityChange);
 
         }
@@ -65,11 +76,25 @@ namespace Tower
             movesToDo.RemoveAt(0);
 
         }
-
         void OnTriggerEnter(Collider other)
         {
-            //grounded = true;
-            //direction = Vector3.zero;
+            if (other.gameObject.tag.Equals("Platform"))
+            {
+                transform.parent = other.transform;
+            }
+
+            if (other.gameObject.tag.Equals("JumpReset"))
+            {
+                fallSpeed = 0;
+            }
+        }
+
+        void OnTriggerExit(Collider other)
+        {
+            if (other.transform == transform.parent)
+            {
+                transform.parent = transform;
+            }
         }
 
         internal void AddAction(CharacterActionBase action)

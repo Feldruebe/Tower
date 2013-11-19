@@ -13,13 +13,13 @@ public class Follower : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+        motors = new List<MoveMotor>();
+        motors.AddRange(GetComponentsInChildren<MoveMotor>().ToList());
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        motors = new List<MoveMotor>();
-        motors.AddRange(GetComponentsInChildren<MoveMotor>().ToList());
+        
 
         foreach (var motor in motors)
         {
