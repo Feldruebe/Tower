@@ -11,6 +11,7 @@ public class AnimationController : MonoBehaviour {
     public MovmentState movmentstate;
     public bool lookingLeft;
     public float animationSpeed = 5;
+    public float speedMultiplier = 1;
 	
 	// Use this for initialization
 	void Start () {
@@ -21,6 +22,7 @@ public class AnimationController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        animationSpeed = motor.speed * speedMultiplier;
         if (motor.TestIfGrounded())
         {
             if (motor.direction == Vector3.zero)
@@ -71,40 +73,39 @@ public class AnimationController : MonoBehaviour {
         {
             sprite.transform.localScale = new Vector3(1, 1, 1);
         }
-
         switch (movmentstate)
         {
             case MovmentState.Stand:
-                spriteAnimator.Play("Stand");
+                spriteAnimator.Play(spriteAnimator.GetClipByName("Stand"), 0f, animationSpeed);
                 break;
             case MovmentState.WalkLeft:
-                spriteAnimator.Play("Walk");
+                spriteAnimator.Play(spriteAnimator.GetClipByName("Walk"), 0f, animationSpeed);
                 break;
             case MovmentState.RunLeft:
-                spriteAnimator.Play("Run");
+                spriteAnimator.Play(spriteAnimator.GetClipByName("Run"), 0f, animationSpeed);
                 break;
             case MovmentState.WalkRight:
-                spriteAnimator.Play("Walk");
+                spriteAnimator.Play(spriteAnimator.GetClipByName("Walk"), 0f, animationSpeed);
                 break;
             case MovmentState.RunRight:
-                spriteAnimator.Play("Run");
+                spriteAnimator.Play(spriteAnimator.GetClipByName("Run"), 0f, animationSpeed);
                 break;
             case MovmentState.WalkUp:
-                spriteAnimator.Play("Walk");
+                spriteAnimator.Play(spriteAnimator.GetClipByName("Walk"), 0f, animationSpeed);
                 break;
             case MovmentState.WalkDown:
-                spriteAnimator.Play("Walk");
+                spriteAnimator.Play(spriteAnimator.GetClipByName("Walk"), 0f, animationSpeed);
                 break;
             case MovmentState.Jump:
-                spriteAnimator.Play("Jump");
+                spriteAnimator.Play(spriteAnimator.GetClipByName("Jump"), 0f, animationSpeed);
                 break;
             case MovmentState.Fall:
-                spriteAnimator.Play("Land");
+                spriteAnimator.Play(spriteAnimator.GetClipByName("Land"), 0f, animationSpeed);
                 break;
             default:
                 break;
         }
-        spriteAnimator.CurrentClip.fps = animationSpeed;
+        //spriteAnimator.CurrentClip.fps = animationSpeed;
     }
 }
 }
