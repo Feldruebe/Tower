@@ -27,7 +27,7 @@ namespace Tower
 
                 if (Input.GetButtonDown("Jump"))
                 {
-                    motor.AddAction(new CharacterActionBase(0));
+                    motor.AddAction(new JumpAction(motor));
                 }
             }
         }

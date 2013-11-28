@@ -30,7 +30,7 @@ public class Follower : MonoBehaviour {
             {
                 if (dir.magnitude < 10 && dir.y > 0.1)
                 {
-                    motor.AddAction(new CharacterActionBase(10));
+                    motor.AddAction(new JumpAction(motor));
                 }
                 dir.y = 0;
 

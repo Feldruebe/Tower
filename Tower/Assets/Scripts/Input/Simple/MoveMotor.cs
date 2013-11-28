@@ -8,7 +8,7 @@ namespace Tower
     {
 
         public Vector3 direction;
-        public List<CharacterActionBase> movesToDo = new List<CharacterActionBase>();
+        public List<AtomicAction> movesToDo = new List<AtomicAction>();
         public float speed;
         public float jumpForce;
         public LayerMask layerMask;
@@ -71,9 +71,10 @@ namespace Tower
             if (movesToDo.Count == 0 || motorIsBlockedTime > 0)
                 return;
 
-            movesToDo[0].DoAction(this);
-            motorIsBlockedTime = movesToDo[0].ActionTime;
-            movesToDo.RemoveAt(0);
+            if (movesToDo[0].UpdateCore(Time.deltaTime))
+            {
+                movesToDo.RemoveAt(0);
+            }
 
         }
         void OnTriggerEnter(Collider other)
@@ -97,7 +98,7 @@ namespace Tower
             }
         }
 
-        internal void AddAction(CharacterActionBase action)
+        internal void AddAction(AtomicAction action)
         {
             movesToDo.Add(action);
         }
