@@ -17,6 +17,9 @@ namespace Tower
         public float fallSpeed = 0;
         public float motorIsBlockedTime = 0;
         public bool resetJump = false;
+        public MovmentState movmentState;
+
+        public bool doesAction = false;
 
         private bool wasGrounded = false;
         
@@ -34,13 +37,23 @@ namespace Tower
 
         void FixedUpdate()
         {
+            if(!doesAction)
+                movmentState = MovmentState.Stand;
             if (TestIfGrounded())
             {
                 wasGrounded = true;
-                fallSpeed = -gravityMax/2.0f;
+                fallSpeed = -gravityMax / 2.0f;
             }
+            else
+            {
+                movmentState = MovmentState.Jump;
+            }
+
             fallSpeed -= gravity;
-            direction = direction * Time.deltaTime * speed;
+            if (!doesAction)
+                direction = direction * Time.deltaTime * speed;
+            else
+                direction = Vector3.zero;
             direction = new Vector3(direction.x, fallSpeed, direction.z);
 
             DoAction();
@@ -71,7 +84,8 @@ namespace Tower
             if (movesToDo.Count == 0 || motorIsBlockedTime > 0)
                 return;
 
-            if (movesToDo[0].UpdateCore(Time.deltaTime))
+            doesAction = movesToDo[0].UpdateCore(Time.deltaTime);
+            if (!doesAction)
             {
                 movesToDo.RemoveAt(0);
             }

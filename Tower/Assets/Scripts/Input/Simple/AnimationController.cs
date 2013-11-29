@@ -22,10 +22,16 @@ public class AnimationController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        animationSpeed = motor.speed * speedMultiplier;
-        if (motor.TestIfGrounded())
+        switch (motor.movmentState)
         {
-            if (motor.direction == Vector3.zero)
+            case MovmentState.Stand:
+            case MovmentState.WalkLeft:
+            case MovmentState.WalkRight:
+            case MovmentState.WalkUp:
+            case MovmentState.WalkDown:
+            case MovmentState.RunLeft:
+            case MovmentState.RunRight:
+                            if (motor.direction == Vector3.zero)
             {
                 movmentstate = MovmentState.Stand;
             }
@@ -53,12 +59,17 @@ public class AnimationController : MonoBehaviour {
                     movmentstate = MovmentState.WalkLeft;
                 }
             }
+                break;
+            case MovmentState.Jump:
+                movmentstate = MovmentState.Jump;
+                break;
+            case MovmentState.Fall:
+                movmentstate = MovmentState.Fall;
+                break;
+            default:
+                break;
         }
-        else
-        {
-            movmentstate = MovmentState.Jump;
-        }
-
+        animationSpeed = motor.speed * speedMultiplier;
         HandleMovmentState();
 	}
 
