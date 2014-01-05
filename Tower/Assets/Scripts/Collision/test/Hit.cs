@@ -4,7 +4,7 @@ using System.Collections;
 public class Hit : MonoBehaviour {
 
     public HOTweenComponent hwc;
-    public AudioSource audio;
+    public AudioSource audioTrack;
 
 	// Use this for initialization
 	void Start () {
@@ -16,13 +16,13 @@ public class Hit : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Q))
         {
             hwc.generatedTweeners[0].Restart();
-            audio.Play();
+            audioTrack.Play();
         }
 	}
 
     void OnTriggerEnter(Collider other)
     {
         hwc.generatedTweeners[0].Restart();
-        audio.Play(); 
+        audioTrack.Play(); 
     }
 }

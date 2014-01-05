@@ -1,4 +1,4 @@
-﻿namespace Tower
+﻿namespace Tower.PlayerInput.Simple
 {
     public enum Moves
     {

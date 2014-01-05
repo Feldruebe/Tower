@@ -55,13 +55,17 @@ MonoBehaviour:
     - {x: 1, y: -2, z: 0}
     - {x: -1.39999998, y: 1.70000005, z: 0}
     - {x: 1, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .853517592, y: .155274421}
-    - {x: .947263658, y: .155274421}
-    - {x: .853517592, y: .227538079}
-    - {x: .947263658, y: .227538079}
+    - {x: .269533217, y: .131836921}
+    - {x: .363279283, y: .131836921}
+    - {x: .269533217, y: .204100579}
+    - {x: .363279283, y: .204100579}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -73,12 +77,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/1
     boundsData:
@@ -93,13 +100,17 @@ MonoBehaviour:
     - {x: 1, y: -2, z: 0}
     - {x: -1.35000002, y: 1.5, z: 0}
     - {x: 1, y: 1.5, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .576173842, y: .325196296}
-    - {x: .667966783, y: .325196296}
-    - {x: .576173842, y: .393553704}
-    - {x: .667966783, y: .393553704}
+    - {x: .218751952, y: .275391608}
+    - {x: .310544908, y: .275391608}
+    - {x: .218751952, y: .343749017}
+    - {x: .310544908, y: .343749017}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -111,12 +122,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/2
     boundsData:
@@ -131,13 +145,17 @@ MonoBehaviour:
     - {x: 1, y: -1.89999998, z: 0}
     - {x: -1.39999998, y: 1.8499999, z: 0}
     - {x: 1, y: 1.8499999, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .275392592, y: .139649421}
-    - {x: .275392592, y: .186522454}
-    - {x: .421873033, y: .139649421}
-    - {x: .421873033, y: .186522454}
+    - {x: .691408217, y: .125977546}
+    - {x: .785154283, y: .125977546}
+    - {x: .691408217, y: .199217767}
+    - {x: .785154283, y: .199217767}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -147,14 +165,17 @@ MonoBehaviour:
     regionY: 270
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/3
     boundsData:
@@ -169,13 +190,17 @@ MonoBehaviour:
     - {x: 1, y: -2, z: 0}
     - {x: -1.04999995, y: 1.5, z: 0}
     - {x: 1, y: 1.5, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .654298842, y: .529297829}
-    - {x: .734373033, y: .529297829}
-    - {x: .654298842, y: .597655296}
-    - {x: .734373033, y: .597655296}
+    - {x: .833986342, y: .445313483}
+    - {x: .833986342, y: .485350579}
+    - {x: .970701158, y: .445313483}
+    - {x: .970701158, y: .485350579}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -185,14 +210,17 @@ MonoBehaviour:
     regionY: 270
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/4
     boundsData:
@@ -207,13 +235,17 @@ MonoBehaviour:
     - {x: .950000048, y: -2, z: 0}
     - {x: -1.35000002, y: 1.75, z: 0}
     - {x: .950000048, y: 1.75, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .00390820298, y: .271485358}
-    - {x: .0937480479, y: .271485358}
-    - {x: .00390820298, y: .344725579}
-    - {x: .0937480479, y: .344725579}
+    - {x: .755861342, y: .256836921}
+    - {x: .845701158, y: .256836921}
+    - {x: .755861342, y: .330077142}
+    - {x: .845701158, y: .330077142}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -225,12 +257,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/5
     boundsData:
@@ -245,13 +280,17 @@ MonoBehaviour:
     - {x: .799999952, y: -2, z: 0}
     - {x: -1.10000002, y: 1.75, z: 0}
     - {x: .799999952, y: 1.75, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .886720717, y: .610352516}
-    - {x: .960935533, y: .610352516}
-    - {x: .886720717, y: .683592796}
-    - {x: .960935533, y: .683592796}
+    - {x: .605470717, y: .448243171}
+    - {x: .605470717, y: .485350579}
+    - {x: .751951158, y: .448243171}
+    - {x: .751951158, y: .485350579}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -261,14 +300,17 @@ MonoBehaviour:
     regionY: 270
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/6
     boundsData:
@@ -283,13 +325,17 @@ MonoBehaviour:
     - {x: .849999905, y: -1.95000005, z: 0}
     - {x: -1.14999998, y: 1.75, z: 0}
     - {x: .849999905, y: 1.75, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .00390820298, y: .500000954}
-    - {x: .0820292979, y: .500000954}
-    - {x: .00390820298, y: .572264671}
-    - {x: .0820292979, y: .572264671}
+    - {x: .162111327, y: .479493171}
+    - {x: .240232423, y: .479493171}
+    - {x: .162111327, y: .551756859}
+    - {x: .240232423, y: .551756859}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -301,12 +347,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/7
     boundsData:
@@ -321,13 +370,17 @@ MonoBehaviour:
     - {x: .5, y: -2, z: 0}
     - {x: -1.5, y: 1.70000005, z: 0}
     - {x: .5, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .345705092, y: .426758796}
-    - {x: .423826158, y: .426758796}
-    - {x: .345705092, y: .499022454}
-    - {x: .423826158, y: .499022454}
+    - {x: .0781269521, y: .487305671}
+    - {x: .156248048, y: .487305671}
+    - {x: .0781269521, y: .559569359}
+    - {x: .156248048, y: .559569359}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -339,12 +392,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/8
     boundsData:
@@ -359,13 +415,17 @@ MonoBehaviour:
     - {x: 1.5999999, y: -1.64999998, z: 0}
     - {x: -1.95000005, y: 1.20000005, z: 0}
     - {x: 1.5999999, y: 1.20000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .763673842, y: .00195410149}
-    - {x: .902341783, y: .00195410149}
-    - {x: .763673842, y: .0576162115}
-    - {x: .902341783, y: .0576162115}
+    - {x: .720705092, y: 9.76562546e-07}
+    - {x: .859373033, y: 9.76562546e-07}
+    - {x: .720705092, y: .0556630865}
+    - {x: .859373033, y: .0556630865}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -377,12 +437,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/9
     boundsData:
@@ -397,13 +460,17 @@ MonoBehaviour:
     - {x: 1.5999999, y: -1.64999998, z: 0}
     - {x: -1.89999998, y: 1.04999995, z: 0}
     - {x: 1.5999999, y: 1.04999995, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .167970702, y: .0791025385}
-    - {x: .304685533, y: .0791025385}
-    - {x: .167970702, y: .131834954}
-    - {x: .304685533, y: .131834954}
+    - {x: .859376967, y: 9.76562546e-07}
+    - {x: .996091783, y: 9.76562546e-07}
+    - {x: .859376967, y: .052733399}
+    - {x: .996091783, y: .052733399}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -415,12 +482,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/10
     boundsData:
@@ -435,13 +505,17 @@ MonoBehaviour:
     - {x: 1.5, y: -1.20000005, z: 0}
     - {x: -1.54999995, y: 1.25, z: 0}
     - {x: 1.5, y: 1.25, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .0937519521, y: .440430671}
-    - {x: .0937519521, y: .499999017}
-    - {x: .189451173, y: .440430671}
-    - {x: .189451173, y: .499999017}
+    - {x: .517580092, y: .377930671}
+    - {x: .636716783, y: .377930671}
+    - {x: .517580092, y: .425780267}
+    - {x: .636716783, y: .425780267}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -451,14 +525,17 @@ MonoBehaviour:
     regionY: 190
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/11
     boundsData:
@@ -473,13 +550,17 @@ MonoBehaviour:
     - {x: 1.1500001, y: -1.75, z: 0}
     - {x: -1.20000005, y: 1.9000001, z: 0}
     - {x: 1.1500001, y: 1.9000001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .677736342, y: .179688483}
-    - {x: .677736342, y: .225584954}
-    - {x: .820310533, y: .179688483}
-    - {x: .820310533, y: .225584954}
+    - {x: 1.95312509e-06, y: .176758796}
+    - {x: 1.95312509e-06, y: .222655267}
+    - {x: .142576173, y: .176758796}
+    - {x: .142576173, y: .222655267}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -491,12 +572,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/12
     boundsData:
@@ -511,13 +595,17 @@ MonoBehaviour:
     - {x: 1.1500001, y: -1.95000005, z: 0}
     - {x: -1.45000005, y: 1.54999995, z: 0}
     - {x: 1.1500001, y: 1.54999995, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .435548842, y: .116211914}
-    - {x: .435548842, y: .166991204}
-    - {x: .572263658, y: .116211914}
-    - {x: .572263658, y: .166991204}
+    - {x: .406251967, y: .109375976}
+    - {x: .406251967, y: .160155267}
+    - {x: .542966783, y: .109375976}
+    - {x: .542966783, y: .160155267}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -529,12 +617,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/13
     boundsData:
@@ -549,13 +640,17 @@ MonoBehaviour:
     - {x: 1.04999995, y: -2, z: 0}
     - {x: -.950000048, y: 1.6500001, z: 0}
     - {x: 1.04999995, y: 1.6500001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .568361342, y: .473633796}
-    - {x: .646482408, y: .473633796}
-    - {x: .568361342, y: .544920921}
-    - {x: .646482408, y: .544920921}
+    - {x: 1.95312509e-06, y: .513672829}
+    - {x: .0781230479, y: .513672829}
+    - {x: 1.95312509e-06, y: .584959984}
+    - {x: .0781230479, y: .584959984}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -567,12 +662,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/14
     boundsData:
@@ -587,13 +685,17 @@ MonoBehaviour:
     - {x: 1.3499999, y: -1.95000005, z: 0}
     - {x: -.899999976, y: 1.4000001, z: 0}
     - {x: 1.3499999, y: 1.4000001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .751955092, y: .487305671}
-    - {x: .751955092, y: .531249046}
-    - {x: .882810533, y: .487305671}
-    - {x: .882810533, y: .531249046}
+    - {x: .386720717, y: .353516608}
+    - {x: .386720717, y: .397459954}
+    - {x: .517576158, y: .353516608}
+    - {x: .517576158, y: .397459954}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -605,12 +707,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/15
     boundsData:
@@ -625,13 +730,17 @@ MonoBehaviour:
     - {x: 1.04999995, y: -2, z: 0}
     - {x: -.950000048, y: 1.6500001, z: 0}
     - {x: 1.04999995, y: 1.6500001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .568361342, y: .473633796}
-    - {x: .646482408, y: .473633796}
-    - {x: .568361342, y: .544920921}
-    - {x: .646482408, y: .544920921}
+    - {x: 1.95312509e-06, y: .513672829}
+    - {x: .0781230479, y: .513672829}
+    - {x: 1.95312509e-06, y: .584959984}
+    - {x: .0781230479, y: .584959984}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -643,12 +752,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/16
     boundsData:
@@ -663,13 +775,17 @@ MonoBehaviour:
     - {x: 1.3499999, y: -1.95000005, z: 0}
     - {x: -.899999976, y: 1.4000001, z: 0}
     - {x: 1.3499999, y: 1.4000001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .751955092, y: .487305671}
-    - {x: .751955092, y: .531249046}
-    - {x: .882810533, y: .487305671}
-    - {x: .882810533, y: .531249046}
+    - {x: .386720717, y: .353516608}
+    - {x: .386720717, y: .397459954}
+    - {x: .517576158, y: .353516608}
+    - {x: .517576158, y: .397459954}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -681,12 +797,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/17
     boundsData:
@@ -701,13 +820,17 @@ MonoBehaviour:
     - {x: 1.25, y: -2, z: 0}
     - {x: -1.39999998, y: 1.0999999, z: 0}
     - {x: 1.25, y: 1.0999999, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .820314467, y: .281250983}
-    - {x: .820314467, y: .333006829}
-    - {x: .941404283, y: .281250983}
-    - {x: .941404283, y: .333006829}
+    - {x: .0878925771, y: .297852546}
+    - {x: .0878925771, y: .349608392}
+    - {x: .208982423, y: .297852546}
+    - {x: .208982423, y: .349608392}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -719,12 +842,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/18
     boundsData:
@@ -739,13 +865,17 @@ MonoBehaviour:
     - {x: 1.75, y: -1.39999998, z: 0}
     - {x: -1.70000005, y: 1.04999995, z: 0}
     - {x: 1.75, y: 1.04999995, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .101564452, y: .315430671}
-    - {x: .236326173, y: .315430671}
-    - {x: .101564452, y: .363280267}
-    - {x: .236326173, y: .363280267}
+    - {x: .660158217, y: .268555671}
+    - {x: .660158217, y: .335936517}
+    - {x: .755857408, y: .268555671}
+    - {x: .755857408, y: .335936517}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -755,14 +885,17 @@ MonoBehaviour:
     regionY: 190
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/19
     boundsData:
@@ -777,13 +910,17 @@ MonoBehaviour:
     - {x: 1.6500001, y: -1.39999998, z: 0}
     - {x: -1.64999998, y: .849999905, z: 0}
     - {x: 1.6500001, y: .849999905, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .431642592, y: .457032233}
-    - {x: .560544908, y: .457032233}
-    - {x: .431642592, y: .500975609}
-    - {x: .560544908, y: .500975609}
+    - {x: .259767592, y: .419922858}
+    - {x: .259767592, y: .484374017}
+    - {x: .347654283, y: .419922858}
+    - {x: .347654283, y: .484374017}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -793,14 +930,17 @@ MonoBehaviour:
     regionY: 190
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/20
     boundsData:
@@ -815,13 +955,17 @@ MonoBehaviour:
     - {x: 1.04999995, y: -2, z: 0}
     - {x: -.950000048, y: 1.6500001, z: 0}
     - {x: 1.04999995, y: 1.6500001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .568361342, y: .473633796}
-    - {x: .646482408, y: .473633796}
-    - {x: .568361342, y: .544920921}
-    - {x: .646482408, y: .544920921}
+    - {x: .755861342, y: .401368171}
+    - {x: .833982408, y: .401368171}
+    - {x: .755861342, y: .472655267}
+    - {x: .833982408, y: .472655267}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -833,12 +977,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/21
     boundsData:
@@ -853,13 +1000,17 @@ MonoBehaviour:
     - {x: 1.20000005, y: -1.95000005, z: 0}
     - {x: -1.39999998, y: 1.54999995, z: 0}
     - {x: 1.20000005, y: 1.54999995, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .435548842, y: .116211914}
-    - {x: .435548842, y: .166991204}
-    - {x: .572263658, y: .116211914}
-    - {x: .572263658, y: .166991204}
+    - {x: .822267592, y: .103516601}
+    - {x: .822267592, y: .154295892}
+    - {x: .958982408, y: .103516601}
+    - {x: .958982408, y: .154295892}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -871,12 +1022,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/22
     boundsData:
@@ -891,13 +1045,17 @@ MonoBehaviour:
     - {x: .849999905, y: -2, z: 0}
     - {x: -1.39999998, y: 1.79999995, z: 0}
     - {x: .849999905, y: 1.79999995, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .908205092, y: .0771494135}
-    - {x: .996091783, y: .0771494135}
-    - {x: .908205092, y: .151366204}
-    - {x: .996091783, y: .151366204}
+    - {x: 1.95312509e-06, y: .222657233}
+    - {x: .0878886729, y: .222657233}
+    - {x: 1.95312509e-06, y: .296874017}
+    - {x: .0878886729, y: .296874017}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -909,12 +1067,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/23
     boundsData:
@@ -929,13 +1090,17 @@ MonoBehaviour:
     - {x: .849999905, y: -2, z: 0}
     - {x: -1.45000005, y: 1.79999995, z: 0}
     - {x: .849999905, y: 1.79999995, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .580080092, y: .170899421}
-    - {x: .669919908, y: .170899421}
-    - {x: .580080092, y: .245116204}
-    - {x: .669919908, y: .245116204}
+    - {x: .908205092, y: .154297858}
+    - {x: .998044908, y: .154297858}
+    - {x: .908205092, y: .228514642}
+    - {x: .998044908, y: .228514642}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -947,12 +1112,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/24
     boundsData:
@@ -967,13 +1135,17 @@ MonoBehaviour:
     - {x: .849999905, y: -2, z: 0}
     - {x: -1.45000005, y: 1.79999995, z: 0}
     - {x: .849999905, y: 1.79999995, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .275392592, y: .190430671}
-    - {x: .365232408, y: .190430671}
-    - {x: .275392592, y: .264647454}
-    - {x: .365232408, y: .264647454}
+    - {x: .570314467, y: .165040046}
+    - {x: .660154283, y: .165040046}
+    - {x: .570314467, y: .239256829}
+    - {x: .660154283, y: .239256829}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -985,12 +1157,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/25
     boundsData:
@@ -1005,13 +1180,17 @@ MonoBehaviour:
     - {x: 1.4000001, y: -1.5, z: 0}
     - {x: -1.10000002, y: 1.5999999, z: 0}
     - {x: 1.4000001, y: 1.5999999, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .775392592, y: .434571296}
-    - {x: .775392592, y: .483397454}
-    - {x: .896482408, y: .434571296}
-    - {x: .896482408, y: .483397454}
+    - {x: .433595717, y: .304688483}
+    - {x: .433595717, y: .353514642}
+    - {x: .554685533, y: .304688483}
+    - {x: .554685533, y: .353514642}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1023,12 +1202,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/26
     boundsData:
@@ -1043,13 +1225,17 @@ MonoBehaviour:
     - {x: 1.4000001, y: -1.5, z: 0}
     - {x: -1.60000002, y: 1.5999999, z: 0}
     - {x: 1.4000001, y: 1.5999999, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .00390820298, y: .134766608}
-    - {x: .00390820298, y: .193358392}
-    - {x: .124998048, y: .134766608}
-    - {x: .124998048, y: .193358392}
+    - {x: .570314467, y: .106446289}
+    - {x: .570314467, y: .165038079}
+    - {x: .691404283, y: .106446289}
+    - {x: .691404283, y: .165038079}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1061,12 +1247,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/27
     boundsData:
@@ -1081,13 +1270,17 @@ MonoBehaviour:
     - {x: 1.20000005, y: -2, z: 0}
     - {x: -1.14999998, y: 1.3499999, z: 0}
     - {x: 1.20000005, y: 1.3499999, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .675783217, y: .383790046}
-    - {x: .767576158, y: .383790046}
-    - {x: .675783217, y: .449217767}
-    - {x: .767576158, y: .449217767}
+    - {x: .0878925771, y: .349610358}
+    - {x: .179685548, y: .349610358}
+    - {x: .0878925771, y: .415038079}
+    - {x: .179685548, y: .415038079}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1099,12 +1292,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/28
     boundsData:
@@ -1119,13 +1315,17 @@ MonoBehaviour:
     - {x: .900000095, y: -2, z: 0}
     - {x: -1.64999998, y: 1.1500001, z: 0}
     - {x: .900000095, y: 1.1500001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .675783217, y: .330079108}
-    - {x: .675783217, y: .379881829}
-    - {x: .798826158, y: .330079108}
-    - {x: .798826158, y: .379881829}
+    - {x: .310548842, y: .298829108}
+    - {x: .310548842, y: .348631829}
+    - {x: .433591783, y: .298829108}
+    - {x: .433591783, y: .348631829}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1137,12 +1337,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/29
     boundsData:
@@ -1157,13 +1360,17 @@ MonoBehaviour:
     - {x: 1.5, y: -1.95000005, z: 0}
     - {x: -1.85000002, y: 1.1500001, z: 0}
     - {x: 1.5, y: 1.1500001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .322267592, y: .00195410149}
-    - {x: .453123033, y: .00195410149}
-    - {x: .322267592, y: .062499024}
-    - {x: .453123033, y: .062499024}
+    - {x: .302736342, y: 9.76562546e-07}
+    - {x: .433591783, y: 9.76562546e-07}
+    - {x: .302736342, y: .060545899}
+    - {x: .433591783, y: .060545899}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1175,12 +1382,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/30
     boundsData:
@@ -1195,13 +1405,17 @@ MonoBehaviour:
     - {x: .799999952, y: -2, z: 0}
     - {x: -1.10000002, y: 1.70000005, z: 0}
     - {x: .799999952, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .173830077, y: .532227516}
-    - {x: .248044923, y: .532227516}
-    - {x: .173830077, y: .604491234}
-    - {x: .248044923, y: .604491234}
+    - {x: .156251952, y: .551758766}
+    - {x: .230466798, y: .551758766}
+    - {x: .156251952, y: .624022484}
+    - {x: .230466798, y: .624022484}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1213,12 +1427,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/31
     boundsData:
@@ -1233,13 +1450,17 @@ MonoBehaviour:
     - {x: .950000048, y: -2, z: 0}
     - {x: -1.10000002, y: 1.70000005, z: 0}
     - {x: .950000048, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .576173842, y: .397461921}
-    - {x: .656248033, y: .397461921}
-    - {x: .576173842, y: .469725579}
-    - {x: .656248033, y: .469725579}
+    - {x: .179689452, y: .407227546}
+    - {x: .259763658, y: .407227546}
+    - {x: .179689452, y: .479491204}
+    - {x: .259763658, y: .479491204}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1251,12 +1472,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/32
     boundsData:
@@ -1271,13 +1495,17 @@ MonoBehaviour:
     - {x: 1, y: -2, z: 0}
     - {x: -1.10000002, y: 1.70000005, z: 0}
     - {x: 1, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .00390820298, y: .423829108}
-    - {x: .0859355479, y: .423829108}
-    - {x: .00390820298, y: .496092767}
-    - {x: .0859355479, y: .496092767}
+    - {x: 1.95312509e-06, y: .368165046}
+    - {x: .0820292979, y: .368165046}
+    - {x: 1.95312509e-06, y: .440428704}
+    - {x: .0820292979, y: .440428704}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1289,12 +1517,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/33
     boundsData:
@@ -1309,13 +1540,17 @@ MonoBehaviour:
     - {x: .799999952, y: -2, z: 0}
     - {x: -1.10000002, y: 1.75, z: 0}
     - {x: .799999952, y: 1.75, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .197267577, y: .455079108}
-    - {x: .271482408, y: .455079108}
-    - {x: .197267577, y: .528319359}
-    - {x: .271482408, y: .528319359}
+    - {x: .751955092, y: .472657233}
+    - {x: .826169908, y: .472657233}
+    - {x: .751955092, y: .545897484}
+    - {x: .826169908, y: .545897484}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1327,12 +1562,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/34
     boundsData:
@@ -1347,13 +1585,17 @@ MonoBehaviour:
     - {x: 1.1500001, y: -2, z: 0}
     - {x: -1.54999995, y: 1.70000005, z: 0}
     - {x: 1.1500001, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .611330092, y: .0595712885}
-    - {x: .611330092, y: .112303711}
-    - {x: .755857408, y: .0595712885}
-    - {x: .755857408, y: .112303711}
+    - {x: .576173842, y: .0537119135}
+    - {x: .576173842, y: .106444336}
+    - {x: .720701158, y: .0537119135}
+    - {x: .720701158, y: .106444336}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1365,12 +1607,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/35
     boundsData:
@@ -1385,13 +1630,17 @@ MonoBehaviour:
     - {x: 1.1500001, y: -2, z: 0}
     - {x: -1.60000002, y: 1.70000005, z: 0}
     - {x: 1.1500001, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .611330092, y: .00195410149}
-    - {x: .611330092, y: .0556630865}
-    - {x: .755857408, y: .00195410149}
-    - {x: .755857408, y: .0556630865}
+    - {x: .576173842, y: 9.76562546e-07}
+    - {x: .576173842, y: .0537099615}
+    - {x: .720701158, y: 9.76562546e-07}
+    - {x: .720701158, y: .0537099615}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1403,12 +1652,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/36
     boundsData:
@@ -1423,13 +1675,17 @@ MonoBehaviour:
     - {x: 1, y: -2, z: 0}
     - {x: -1.29999995, y: 1.70000005, z: 0}
     - {x: 1, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .580080092, y: .249024421}
-    - {x: .669919908, y: .249024421}
-    - {x: .580080092, y: .321288079}
-    - {x: .669919908, y: .321288079}
+    - {x: .326173842, y: .207032233}
+    - {x: .326173842, y: .251952142}
+    - {x: .470701158, y: .207032233}
+    - {x: .470701158, y: .251952142}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1439,14 +1695,17 @@ MonoBehaviour:
     regionY: 30
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/37
     boundsData:
@@ -1461,13 +1720,17 @@ MonoBehaviour:
     - {x: 1.25, y: -2, z: 0}
     - {x: -.799999952, y: 1.5, z: 0}
     - {x: 1.25, y: 1.5, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .742189467, y: .585938454}
-    - {x: .742189467, y: .625975609}
-    - {x: .878904283, y: .585938454}
-    - {x: .878904283, y: .625975609}
+    - {x: .468751967, y: .425782233}
+    - {x: .468751967, y: .465819329}
+    - {x: .605466783, y: .425782233}
+    - {x: .605466783, y: .465819329}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1479,12 +1742,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/38
     boundsData:
@@ -1499,13 +1765,17 @@ MonoBehaviour:
     - {x: .950000048, y: -2, z: 0}
     - {x: -1.10000002, y: 1.70000005, z: 0}
     - {x: .950000048, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .664064467, y: .453125983}
-    - {x: .744138658, y: .453125983}
-    - {x: .664064467, y: .525389671}
-    - {x: .744138658, y: .525389671}
+    - {x: .0820332021, y: .415040046}
+    - {x: .162107423, y: .415040046}
+    - {x: .0820332021, y: .487303704}
+    - {x: .162107423, y: .487303704}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1517,12 +1787,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_1/39
     boundsData:
@@ -1537,13 +1810,17 @@ MonoBehaviour:
     - {x: .0499999523, y: 0, z: 0}
     - {x: 0, y: .0499999523, z: 0}
     - {x: .0499999523, y: .0499999523, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: 1.00195503, y: .00195410149}
-    - {x: .996091783, y: .00195410149}
-    - {x: 1.00195503, y: -.000977539108}
-    - {x: .996091783, y: -.000977539108}
+    - {x: .570314467, y: .054688476}
+    - {x: .572263658, y: .054688476}
+    - {x: .570314467, y: .0556630865}
+    - {x: .572263658, y: .0556630865}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1555,33 +1832,40 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/0
     boundsData:
-    - {x: -.125, y: -.125, z: 0}
+    - {x: -.125, y: 1.875, z: 0}
     - {x: 1.8499999, y: 3.6500001, z: 0}
     untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 2, z: 0}
     - {x: 4, y: 4, z: 0}
     texelSize: {x: .0500000007, y: .0500000007}
     positions:
-    - {x: -1.04999995, y: -1.95000005, z: 0}
-    - {x: .799999952, y: -1.95000005, z: 0}
-    - {x: -1.04999995, y: 1.70000005, z: 0}
-    - {x: .799999952, y: 1.70000005, z: 0}
-    normals: []
+    - {x: -1.04999995, y: .0500000007, z: 0}
+    - {x: .799999952, y: .0500000007, z: 0}
+    - {x: -1.04999995, y: 3.70000005, z: 0}
+    - {x: .799999952, y: 3.70000005, z: 0}
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .923830092, y: .388672858}
-    - {x: .996091783, y: .388672858}
-    - {x: .923830092, y: .459959954}
-    - {x: .996091783, y: .459959954}
+    - {x: .423830092, y: .537110329}
+    - {x: .496091783, y: .537110329}
+    - {x: .423830092, y: .608397484}
+    - {x: .496091783, y: .608397484}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1593,12 +1877,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/1
     boundsData:
@@ -1613,13 +1900,17 @@ MonoBehaviour:
     - {x: .799999952, y: -1.95000005, z: 0}
     - {x: -1.04999995, y: 1.70000005, z: 0}
     - {x: .799999952, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .496095717, y: .381836921}
-    - {x: .568357408, y: .381836921}
-    - {x: .496095717, y: .453124017}
-    - {x: .568357408, y: .453124017}
+    - {x: .316408217, y: .538086891}
+    - {x: .388669908, y: .538086891}
+    - {x: .316408217, y: .609374046}
+    - {x: .388669908, y: .609374046}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1631,12 +1922,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/2
     boundsData:
@@ -1651,13 +1945,17 @@ MonoBehaviour:
     - {x: .799999952, y: -1.95000005, z: 0}
     - {x: -1.04999995, y: 1.70000005, z: 0}
     - {x: .799999952, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .675783217, y: .670899391}
-    - {x: .675783217, y: .707030296}
-    - {x: .818357408, y: .670899391}
-    - {x: .818357408, y: .707030296}
+    - {x: .230470702, y: .555665016}
+    - {x: .302732408, y: .555665016}
+    - {x: .230470702, y: .626952171}
+    - {x: .302732408, y: .626952171}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1667,14 +1965,17 @@ MonoBehaviour:
     regionY: 480
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/3
     boundsData:
@@ -1689,13 +1990,17 @@ MonoBehaviour:
     - {x: .849999905, y: -1.95000005, z: 0}
     - {x: -1.10000002, y: 1.70000005, z: 0}
     - {x: .849999905, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .0898457021, y: .503907204}
-    - {x: .166013673, y: .503907204}
-    - {x: .0898457021, y: .575194359}
-    - {x: .166013673, y: .575194359}
+    - {x: .468751967, y: .465821296}
+    - {x: .544919908, y: .465821296}
+    - {x: .468751967, y: .537108421}
+    - {x: .544919908, y: .537108421}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1707,12 +2012,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/4
     boundsData:
@@ -1727,13 +2035,17 @@ MonoBehaviour:
     - {x: .799999952, y: -1.95000005, z: 0}
     - {x: -1.04999995, y: 1.70000005, z: 0}
     - {x: .799999952, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .826173842, y: .687500954}
-    - {x: .826173842, y: .723631859}
-    - {x: .968748033, y: .687500954}
-    - {x: .968748033, y: .723631859}
+    - {x: .154298827, y: .624024391}
+    - {x: .226560548, y: .624024391}
+    - {x: .154298827, y: .695311546}
+    - {x: .226560548, y: .695311546}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1743,14 +2055,17 @@ MonoBehaviour:
     regionY: 480
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/5
     boundsData:
@@ -1765,13 +2080,17 @@ MonoBehaviour:
     - {x: .799999952, y: -1.95000005, z: 0}
     - {x: -1.04999995, y: 1.70000005, z: 0}
     - {x: .799999952, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .255861342, y: .544922829}
-    - {x: .255861342, y: .581053734}
-    - {x: .398435533, y: .544922829}
-    - {x: .398435533, y: .581053734}
+    - {x: .0742207021, y: .629883766}
+    - {x: .146482423, y: .629883766}
+    - {x: .0742207021, y: .701170921}
+    - {x: .146482423, y: .701170921}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1781,14 +2100,17 @@ MonoBehaviour:
     regionY: 480
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/6
     boundsData:
@@ -1803,13 +2125,17 @@ MonoBehaviour:
     - {x: .799999952, y: -1.95000005, z: 0}
     - {x: -1.04999995, y: 1.70000005, z: 0}
     - {x: .799999952, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .406251967, y: .580079079}
-    - {x: .478513658, y: .580079079}
-    - {x: .406251967, y: .651366234}
-    - {x: .478513658, y: .651366234}
+    - {x: 1.95312509e-06, y: .656250954}
+    - {x: .0722636729, y: .656250954}
+    - {x: 1.95312509e-06, y: .727538109}
+    - {x: .0722636729, y: .727538109}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1821,12 +2147,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/7
     boundsData:
@@ -1841,13 +2170,17 @@ MonoBehaviour:
     - {x: .849999905, y: -1.95000005, z: 0}
     - {x: -1.10000002, y: 1.70000005, z: 0}
     - {x: .849999905, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .00390820298, y: .576172829}
-    - {x: .0800761729, y: .576172829}
-    - {x: .00390820298, y: .647459984}
-    - {x: .0800761729, y: .647459984}
+    - {x: .347658217, y: .466797858}
+    - {x: .423826158, y: .466797858}
+    - {x: .347658217, y: .538084984}
+    - {x: .423826158, y: .538084984}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1859,12 +2192,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/8
     boundsData:
@@ -1879,13 +2215,17 @@ MonoBehaviour:
     - {x: .0499999523, y: 0, z: 0}
     - {x: 0, y: .0499999523, z: 0}
     - {x: .0499999523, y: .0499999523, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: 1.00195503, y: .00195410149}
-    - {x: .996091783, y: .00195410149}
-    - {x: 1.00195503, y: -.000977539108}
-    - {x: .996091783, y: -.000977539108}
+    - {x: .570314467, y: .054688476}
+    - {x: .572263658, y: .054688476}
+    - {x: .570314467, y: .0556630865}
+    - {x: .572263658, y: .0556630865}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1897,12 +2237,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/9
     boundsData:
@@ -1917,13 +2260,17 @@ MonoBehaviour:
     - {x: .0499999523, y: 0, z: 0}
     - {x: 0, y: .0499999523, z: 0}
     - {x: .0499999523, y: .0499999523, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: 1.00195503, y: .00195410149}
-    - {x: .996091783, y: .00195410149}
-    - {x: 1.00195503, y: -.000977539108}
-    - {x: .996091783, y: -.000977539108}
+    - {x: .570314467, y: .054688476}
+    - {x: .572263658, y: .054688476}
+    - {x: .570314467, y: .0556630865}
+    - {x: .572263658, y: .0556630865}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1935,33 +2282,40 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/10
     boundsData:
-    - {x: -.0749999881, y: -.149999976, z: 0}
+    - {x: -.0749999881, y: 1.85000002, z: 0}
     - {x: 2.1500001, y: 3.60000014, z: 0}
     untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 2, z: 0}
     - {x: 4, y: 4, z: 0}
     texelSize: {x: .0500000007, y: .0500000007}
     positions:
-    - {x: -1.14999998, y: -1.95000005, z: 0}
-    - {x: 1, y: -1.95000005, z: 0}
-    - {x: -1.14999998, y: 1.6500001, z: 0}
-    - {x: 1, y: 1.6500001, z: 0}
-    normals: []
+    - {x: -1.14999998, y: .0500000007, z: 0}
+    - {x: 1, y: .0500000007, z: 0}
+    - {x: -1.14999998, y: 3.6500001, z: 0}
+    - {x: 1, y: 3.6500001, z: 0}
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .775392592, y: .388672858}
-    - {x: .775392592, y: .430663079}
-    - {x: .916013658, y: .388672858}
-    - {x: .916013658, y: .430663079}
+    - {x: .554689467, y: .307618171}
+    - {x: .638669908, y: .307618171}
+    - {x: .554689467, y: .377928704}
+    - {x: .638669908, y: .377928704}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -1971,35 +2325,42 @@ MonoBehaviour:
     regionY: 400
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/11
     boundsData:
-    - {x: .150000036, y: -.149999976, z: 0}
+    - {x: .150000036, y: 1.85000002, z: 0}
     - {x: 2.5999999, y: 3.60000014, z: 0}
     untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 2, z: 0}
     - {x: 4, y: 4, z: 0}
     texelSize: {x: .0500000007, y: .0500000007}
     positions:
-    - {x: -1.14999998, y: -1.95000005, z: 0}
-    - {x: 1.45000005, y: -1.95000005, z: 0}
-    - {x: -1.14999998, y: 1.6500001, z: 0}
-    - {x: 1.45000005, y: 1.6500001, z: 0}
-    normals: []
+    - {x: -1.14999998, y: .0500000007, z: 0}
+    - {x: 1.45000005, y: .0500000007, z: 0}
+    - {x: -1.14999998, y: 3.6500001, z: 0}
+    - {x: 1.45000005, y: 3.6500001, z: 0}
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .00390820298, y: .080079101}
-    - {x: .00390820298, y: .130858392}
-    - {x: .144529298, y: .080079101}
-    - {x: .144529298, y: .130858392}
+    - {x: .859376967, y: .052735351}
+    - {x: .859376967, y: .103514649}
+    - {x: .999998033, y: .052735351}
+    - {x: .999998033, y: .103514649}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2011,33 +2372,40 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/12
     boundsData:
-    - {x: -.549999952, y: -.125, z: 0}
+    - {x: -.549999952, y: 1.875, z: 0}
     - {x: 1.9000001, y: 3.6500001, z: 0}
     untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 2, z: 0}
     - {x: 4, y: 4, z: 0}
     texelSize: {x: .0500000007, y: .0500000007}
     positions:
-    - {x: -1.5, y: -1.95000005, z: 0}
-    - {x: .400000095, y: -1.95000005, z: 0}
-    - {x: -1.5, y: 1.70000005, z: 0}
-    - {x: .400000095, y: 1.70000005, z: 0}
-    normals: []
+    - {x: -1.5, y: .0500000007, z: 0}
+    - {x: .400000095, y: .0500000007, z: 0}
+    - {x: -1.5, y: 3.70000005, z: 0}
+    - {x: .400000095, y: 3.70000005, z: 0}
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .00390820298, y: .651368141}
-    - {x: .0781230479, y: .651368141}
-    - {x: .00390820298, y: .722655296}
-    - {x: .0781230479, y: .722655296}
+    - {x: 1.95312509e-06, y: .584961891}
+    - {x: .0742167979, y: .584961891}
+    - {x: 1.95312509e-06, y: .656249046}
+    - {x: .0742167979, y: .656249046}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2049,33 +2417,40 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/13
     boundsData:
-    - {x: .149999976, y: -.125, z: 0}
+    - {x: .149999976, y: 1.875, z: 0}
     - {x: 2.79999995, y: 3.6500001, z: 0}
     untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 2, z: 0}
     - {x: 4, y: 4, z: 0}
     texelSize: {x: .0500000007, y: .0500000007}
     positions:
-    - {x: -1.25, y: -1.95000005, z: 0}
-    - {x: 1.54999995, y: -1.95000005, z: 0}
-    - {x: -1.25, y: 1.70000005, z: 0}
-    - {x: 1.54999995, y: 1.70000005, z: 0}
-    normals: []
+    - {x: -1.25, y: .0500000007, z: 0}
+    - {x: 1.54999995, y: .0500000007, z: 0}
+    - {x: -1.25, y: 3.70000005, z: 0}
+    - {x: 1.54999995, y: 3.70000005, z: 0}
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .460939467, y: .00195410149}
-    - {x: .460939467, y: .056639649}
-    - {x: .603513658, y: .00195410149}
-    - {x: .603513658, y: .056639649}
+    - {x: .433595717, y: 9.76562546e-07}
+    - {x: .433595717, y: .054686524}
+    - {x: .576169908, y: 9.76562546e-07}
+    - {x: .576169908, y: .054686524}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2087,12 +2462,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/14
     boundsData:
@@ -2107,13 +2485,17 @@ MonoBehaviour:
     - {x: 1.45000005, y: -1.95000005, z: 0}
     - {x: -1.25, y: 1.5999999, z: 0}
     - {x: 1.45000005, y: 1.5999999, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .322267592, y: .066407226}
-    - {x: .427732408, y: .066407226}
-    - {x: .322267592, y: .135741204}
-    - {x: .427732408, y: .135741204}
+    - {x: .156251952, y: .0732431635}
+    - {x: .156251952, y: .125975579}
+    - {x: .294919908, y: .0732431635}
+    - {x: .294919908, y: .125975579}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2123,14 +2505,17 @@ MonoBehaviour:
     regionY: 400
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/15
     boundsData:
@@ -2145,13 +2530,17 @@ MonoBehaviour:
     - {x: 1.3499999, y: -1.95000005, z: 0}
     - {x: -1.10000002, y: 1.5, z: 0}
     - {x: 1.3499999, y: 1.5, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .361330092, y: .276368171}
-    - {x: .361330092, y: .324217767}
-    - {x: .496091783, y: .276368171}
-    - {x: .496091783, y: .324217767}
+    - {x: .470705092, y: .237305671}
+    - {x: .566404283, y: .237305671}
+    - {x: .470705092, y: .304686517}
+    - {x: .566404283, y: .304686517}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2161,14 +2550,17 @@ MonoBehaviour:
     regionY: 400
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/16
     boundsData:
@@ -2183,13 +2575,17 @@ MonoBehaviour:
     - {x: 1.4000001, y: -1.95000005, z: 0}
     - {x: -1.14999998, y: 1.3499999, z: 0}
     - {x: 1.4000001, y: 1.3499999, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .361330092, y: .328125983}
-    - {x: .361330092, y: .377928704}
-    - {x: .490232408, y: .328125983}
-    - {x: .490232408, y: .377928704}
+    - {x: .839845717, y: .349610358}
+    - {x: .839845717, y: .399413079}
+    - {x: .968748033, y: .349610358}
+    - {x: .968748033, y: .399413079}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2201,12 +2597,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/17
     boundsData:
@@ -2221,13 +2620,17 @@ MonoBehaviour:
     - {x: 1.1500001, y: -1.95000005, z: 0}
     - {x: -1.25, y: 1.5, z: 0}
     - {x: 1.1500001, y: 1.5, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .677736342, y: .279297858}
-    - {x: .677736342, y: .326170892}
-    - {x: .812498033, y: .279297858}
-    - {x: .812498033, y: .326170892}
+    - {x: .326173842, y: .251954108}
+    - {x: .326173842, y: .298827142}
+    - {x: .460935533, y: .251954108}
+    - {x: .460935533, y: .298827142}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2239,12 +2642,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/18
     boundsData:
@@ -2259,13 +2665,17 @@ MonoBehaviour:
     - {x: .0499999523, y: 0, z: 0}
     - {x: 0, y: .0499999523, z: 0}
     - {x: .0499999523, y: .0499999523, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: 1.00195503, y: .00195410149}
-    - {x: .996091783, y: .00195410149}
-    - {x: 1.00195503, y: -.000977539108}
-    - {x: .996091783, y: -.000977539108}
+    - {x: .570314467, y: .054688476}
+    - {x: .572263658, y: .054688476}
+    - {x: .570314467, y: .0556630865}
+    - {x: .572263658, y: .0556630865}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2277,12 +2687,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/19
     boundsData:
@@ -2297,13 +2710,17 @@ MonoBehaviour:
     - {x: .0499999523, y: 0, z: 0}
     - {x: 0, y: .0499999523, z: 0}
     - {x: .0499999523, y: .0499999523, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: 1.00195503, y: .00195410149}
-    - {x: .996091783, y: .00195410149}
-    - {x: 1.00195503, y: -.000977539108}
-    - {x: .996091783, y: -.000977539108}
+    - {x: .570314467, y: .054688476}
+    - {x: .572263658, y: .054688476}
+    - {x: .570314467, y: .0556630865}
+    - {x: .572263658, y: .0556630865}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2315,12 +2732,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/20
     boundsData:
@@ -2335,13 +2755,17 @@ MonoBehaviour:
     - {x: 1.29999995, y: -1.95000005, z: 0}
     - {x: -1.35000002, y: 1.70000005, z: 0}
     - {x: 1.29999995, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .460939467, y: .060547851}
-    - {x: .460939467, y: .112303711}
-    - {x: .603513658, y: .060547851}
-    - {x: .603513658, y: .112303711}
+    - {x: .302736342, y: .060547851}
+    - {x: .406248033, y: .060547851}
+    - {x: .302736342, y: .131834954}
+    - {x: .406248033, y: .131834954}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2351,14 +2775,17 @@ MonoBehaviour:
     regionY: 320
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/21
     boundsData:
@@ -2373,13 +2800,17 @@ MonoBehaviour:
     - {x: 1.4000001, y: -1.95000005, z: 0}
     - {x: -.850000024, y: 1.70000005, z: 0}
     - {x: 1.4000001, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .00390820298, y: .348633796}
-    - {x: .0917949229, y: .348633796}
-    - {x: .00390820298, y: .419920892}
-    - {x: .0917949229, y: .419920892}
+    - {x: 1.95312509e-06, y: .296875983}
+    - {x: .0878886729, y: .296875983}
+    - {x: 1.95312509e-06, y: .368163079}
+    - {x: .0878886729, y: .368163079}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2391,12 +2822,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/22
     boundsData:
@@ -2411,13 +2845,17 @@ MonoBehaviour:
     - {x: 1.20000005, y: -1.95000005, z: 0}
     - {x: -1.20000005, y: 1.70000005, z: 0}
     - {x: 1.20000005, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .429689467, y: .170899421}
-    - {x: .429689467, y: .217772454}
-    - {x: .572263658, y: .170899421}
-    - {x: .572263658, y: .217772454}
+    - {x: .363283217, y: .160157233}
+    - {x: .363283217, y: .207030267}
+    - {x: .505857408, y: .160157233}
+    - {x: .505857408, y: .207030267}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2429,12 +2867,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/23
     boundsData:
@@ -2449,13 +2890,17 @@ MonoBehaviour:
     - {x: .799999952, y: -1.95000005, z: 0}
     - {x: -1.10000002, y: 1.70000005, z: 0}
     - {x: .799999952, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .429689467, y: .504883766}
-    - {x: .503904283, y: .504883766}
-    - {x: .429689467, y: .576170921}
-    - {x: .503904283, y: .576170921}
+    - {x: .544923842, y: .485352546}
+    - {x: .544923842, y: .522459984}
+    - {x: .687498033, y: .485352546}
+    - {x: .687498033, y: .522459984}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2465,14 +2910,17 @@ MonoBehaviour:
     regionY: 320
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/24
     boundsData:
@@ -2487,13 +2935,17 @@ MonoBehaviour:
     - {x: .799999952, y: -1.95000005, z: 0}
     - {x: -1.10000002, y: 1.70000005, z: 0}
     - {x: .799999952, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .511720717, y: .548829079}
-    - {x: .585935533, y: .548829079}
-    - {x: .511720717, y: .620116234}
-    - {x: .585935533, y: .620116234}
+    - {x: .750001967, y: .545899391}
+    - {x: .824216783, y: .545899391}
+    - {x: .750001967, y: .617186546}
+    - {x: .824216783, y: .617186546}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2505,12 +2957,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/25
     boundsData:
@@ -2525,13 +2980,17 @@ MonoBehaviour:
     - {x: .799999952, y: -1.95000005, z: 0}
     - {x: -1.10000002, y: 1.70000005, z: 0}
     - {x: .799999952, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .593751967, y: .601563454}
-    - {x: .667966783, y: .601563454}
-    - {x: .593751967, y: .672850609}
-    - {x: .667966783, y: .672850609}
+    - {x: .544923842, y: .522461891}
+    - {x: .544923842, y: .559569359}
+    - {x: .687498033, y: .522461891}
+    - {x: .687498033, y: .559569359}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2541,14 +3000,17 @@ MonoBehaviour:
     regionY: 320
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/26
     boundsData:
@@ -2563,13 +3025,17 @@ MonoBehaviour:
     - {x: .849999905, y: -1.95000005, z: 0}
     - {x: -1.10000002, y: 1.70000005, z: 0}
     - {x: .849999905, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .279298842, y: .502930641}
-    - {x: .279298842, y: .541014671}
-    - {x: .421873033, y: .502930641}
-    - {x: .421873033, y: .541014671}
+    - {x: .240236327, y: .484375983}
+    - {x: .316404283, y: .484375983}
+    - {x: .240236327, y: .555663109}
+    - {x: .316404283, y: .555663109}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2579,14 +3045,17 @@ MonoBehaviour:
     regionY: 320
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/27
     boundsData:
@@ -2601,13 +3070,17 @@ MonoBehaviour:
     - {x: .849999905, y: -1.95000005, z: 0}
     - {x: -1.25, y: 1.70000005, z: 0}
     - {x: .849999905, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .345705092, y: .381836921}
-    - {x: .345705092, y: .422850579}
-    - {x: .488279283, y: .381836921}
-    - {x: .488279283, y: .422850579}
+    - {x: .304689467, y: .348633796}
+    - {x: .386716783, y: .348633796}
+    - {x: .304689467, y: .419920892}
+    - {x: .386716783, y: .419920892}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2617,14 +3090,17 @@ MonoBehaviour:
     regionY: 320
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/28
     boundsData:
@@ -2639,13 +3115,17 @@ MonoBehaviour:
     - {x: 1.4000001, y: -2, z: 0}
     - {x: -1.14999998, y: 1.3499999, z: 0}
     - {x: 1.4000001, y: 1.3499999, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .253908217, y: .268555671}
-    - {x: .353513658, y: .268555671}
-    - {x: .253908217, y: .333983392}
-    - {x: .353513658, y: .333983392}
+    - {x: .0878925771, y: .248047858}
+    - {x: .0878925771, y: .297850579}
+    - {x: .218748048, y: .248047858}
+    - {x: .218748048, y: .297850579}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2655,14 +3135,17 @@ MonoBehaviour:
     regionY: 320
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/29
     boundsData:
@@ -2677,13 +3160,17 @@ MonoBehaviour:
     - {x: .0499999523, y: 0, z: 0}
     - {x: 0, y: .0499999523, z: 0}
     - {x: .0499999523, y: .0499999523, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: 1.00195503, y: .00195410149}
-    - {x: .996091783, y: .00195410149}
-    - {x: 1.00195503, y: -.000977539108}
-    - {x: .996091783, y: -.000977539108}
+    - {x: .570314467, y: .054688476}
+    - {x: .572263658, y: .054688476}
+    - {x: .570314467, y: .0556630865}
+    - {x: .572263658, y: .0556630865}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2695,12 +3182,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/30
     boundsData:
@@ -2715,13 +3205,17 @@ MonoBehaviour:
     - {x: 1.25, y: -1.35000002, z: 0}
     - {x: -1.35000002, y: 1.95000005, z: 0}
     - {x: 1.25, y: 1.95000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .373048842, y: .221680671}
-    - {x: .373048842, y: .272459954}
-    - {x: .501951158, y: .221680671}
-    - {x: .501951158, y: .272459954}
+    - {x: .845705092, y: .298829108}
+    - {x: .845705092, y: .349608392}
+    - {x: .974607408, y: .298829108}
+    - {x: .974607408, y: .349608392}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2733,12 +3227,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/31
     boundsData:
@@ -2753,13 +3250,17 @@ MonoBehaviour:
     - {x: 1.5, y: -1.14999998, z: 0}
     - {x: -1.95000005, y: 1.5, z: 0}
     - {x: 1.5, y: 1.5, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .132814452, y: .135743171}
-    - {x: .267576158, y: .135743171}
-    - {x: .132814452, y: .187499017}
-    - {x: .267576158, y: .187499017}
+    - {x: 1.95312509e-06, y: .074219726}
+    - {x: .134763673, y: .074219726}
+    - {x: 1.95312509e-06, y: .125975579}
+    - {x: .134763673, y: .125975579}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2771,12 +3272,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/32
     boundsData:
@@ -2791,13 +3295,17 @@ MonoBehaviour:
     - {x: 1.79999995, y: -.5, z: 0}
     - {x: -1.85000002, y: 1.4000001, z: 0}
     - {x: 1.79999995, y: 1.4000001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .675783217, y: .629883766}
-    - {x: .818357408, y: .629883766}
-    - {x: .675783217, y: .666991234}
-    - {x: .818357408, y: .666991234}
+    - {x: .826173842, y: .485352546}
+    - {x: .968748033, y: .485352546}
+    - {x: .826173842, y: .522459984}
+    - {x: .968748033, y: .522459984}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2809,12 +3317,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/33
     boundsData:
@@ -2829,13 +3340,17 @@ MonoBehaviour:
     - {x: 1.45000005, y: -.899999976, z: 0}
     - {x: -1.60000002, y: 1.5, z: 0}
     - {x: 1.45000005, y: 1.5, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .742189467, y: .535157204}
-    - {x: .861326158, y: .535157204}
-    - {x: .742189467, y: .582030296}
-    - {x: .861326158, y: .582030296}
+    - {x: .636720717, y: .401368171}
+    - {x: .755857408, y: .401368171}
+    - {x: .636720717, y: .448241204}
+    - {x: .755857408, y: .448241204}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2847,12 +3362,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/34
     boundsData:
@@ -2867,13 +3385,17 @@ MonoBehaviour:
     - {x: 1.95000005, y: -1.85000002, z: 0}
     - {x: -2, y: -.200000048, z: 0}
     - {x: 1.95000005, y: -.200000048, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .503908217, y: .300782233}
-    - {x: .503908217, y: .377928704}
-    - {x: .568357408, y: .300782233}
-    - {x: .568357408, y: .377928704}
+    - {x: .505861342, y: .160157233}
+    - {x: .505861342, y: .237303704}
+    - {x: .570310533, y: .160157233}
+    - {x: .570310533, y: .237303704}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2885,12 +3407,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/35
     boundsData:
@@ -2905,13 +3430,17 @@ MonoBehaviour:
     - {x: 1.8499999, y: -1.79999995, z: 0}
     - {x: -1.79999995, y: .0999999046, z: 0}
     - {x: 1.8499999, y: .0999999046, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .675783217, y: .629883766}
-    - {x: .818357408, y: .629883766}
-    - {x: .675783217, y: .666991234}
-    - {x: .818357408, y: .666991234}
+    - {x: .826173842, y: .522461891}
+    - {x: .968748033, y: .522461891}
+    - {x: .826173842, y: .559569359}
+    - {x: .968748033, y: .559569359}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2923,12 +3452,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/36
     boundsData:
@@ -2943,13 +3475,17 @@ MonoBehaviour:
     - {x: 1.20000005, y: -1.95000005, z: 0}
     - {x: -1, y: 1.0999999, z: 0}
     - {x: 1.20000005, y: 1.0999999, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .486330092, y: .624024391}
-    - {x: .572263658, y: .624024391}
-    - {x: .486330092, y: .683592796}
-    - {x: .572263658, y: .683592796}
+    - {x: .824220717, y: .559571266}
+    - {x: .824220717, y: .602538109}
+    - {x: .943357408, y: .559571266}
+    - {x: .943357408, y: .602538109}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2959,14 +3495,17 @@ MonoBehaviour:
     regionY: 240
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/37
     boundsData:
@@ -2981,13 +3520,17 @@ MonoBehaviour:
     - {x: 1.9000001, y: -1.85000002, z: 0}
     - {x: -1.85000002, y: 1.9000001, z: 0}
     - {x: 1.9000001, y: 1.9000001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .167970702, y: .00195410149}
-    - {x: .314451158, y: .00195410149}
-    - {x: .167970702, y: .0751943365}
-    - {x: .314451158, y: .0751943365}
+    - {x: .156251952, y: 9.76562546e-07}
+    - {x: .302732408, y: 9.76562546e-07}
+    - {x: .156251952, y: .0732412115}
+    - {x: .302732408, y: .0732412115}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -2999,12 +3542,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/38
     boundsData:
@@ -3019,13 +3565,17 @@ MonoBehaviour:
     - {x: 1.95000005, y: -2, z: 0}
     - {x: -1.85000002, y: 2, z: 0}
     - {x: 1.95000005, y: 2, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .00390820298, y: .00195410149}
-    - {x: .00390820298, y: .076170899}
-    - {x: .160154298, y: .00195410149}
-    - {x: .160154298, y: .076170899}
+    - {x: 1.95312509e-06, y: 9.76562546e-07}
+    - {x: 1.95312509e-06, y: .074217774}
+    - {x: .156248048, y: 9.76562546e-07}
+    - {x: .156248048, y: .074217774}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3037,12 +3587,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/39
     boundsData:
@@ -3057,13 +3610,17 @@ MonoBehaviour:
     - {x: .0499999523, y: 0, z: 0}
     - {x: 0, y: .0499999523, z: 0}
     - {x: .0499999523, y: .0499999523, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: 1.00195503, y: .00195410149}
-    - {x: .996091783, y: .00195410149}
-    - {x: 1.00195503, y: -.000977539108}
-    - {x: .996091783, y: -.000977539108}
+    - {x: .570314467, y: .054688476}
+    - {x: .572263658, y: .054688476}
+    - {x: .570314467, y: .0556630865}
+    - {x: .572263658, y: .0556630865}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3075,12 +3632,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/40
     boundsData:
@@ -3095,13 +3655,17 @@ MonoBehaviour:
     - {x: 1.3499999, y: -1.75, z: 0}
     - {x: -1, y: 1.9000001, z: 0}
     - {x: 1.3499999, y: 1.9000001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .677736342, y: .229493171}
-    - {x: .677736342, y: .275389642}
-    - {x: .820310533, y: .229493171}
-    - {x: .820310533, y: .275389642}
+    - {x: .142580077, y: .176758796}
+    - {x: .234373048, y: .176758796}
+    - {x: .142580077, y: .248045892}
+    - {x: .234373048, y: .248045892}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3111,14 +3675,17 @@ MonoBehaviour:
     regionY: 160
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/41
     boundsData:
@@ -3133,13 +3700,17 @@ MonoBehaviour:
     - {x: 1.04999995, y: -1.75, z: 0}
     - {x: -1.39999998, y: 1.79999995, z: 0}
     - {x: 1.04999995, y: 1.79999995, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .132814452, y: .191407233}
-    - {x: .228513673, y: .191407233}
-    - {x: .132814452, y: .260741204}
-    - {x: .228513673, y: .260741204}
+    - {x: .660158217, y: .199219733}
+    - {x: .755857408, y: .199219733}
+    - {x: .660158217, y: .268553704}
+    - {x: .755857408, y: .268553704}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3151,12 +3722,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/42
     boundsData:
@@ -3171,13 +3745,17 @@ MonoBehaviour:
     - {x: 1.79999995, y: -1, z: 0}
     - {x: -1.70000005, y: 1.4000001, z: 0}
     - {x: 1.79999995, y: 1.4000001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .244142577, y: .337891608}
-    - {x: .244142577, y: .406249017}
-    - {x: .337888658, y: .337891608}
-    - {x: .337888658, y: .406249017}
+    - {x: .566408217, y: .239258796}
+    - {x: .566408217, y: .307616204}
+    - {x: .660154283, y: .239258796}
+    - {x: .660154283, y: .307616204}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3189,12 +3767,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/43
     boundsData:
@@ -3209,13 +3790,17 @@ MonoBehaviour:
     - {x: 1.8499999, y: -1.54999995, z: 0}
     - {x: -1.70000005, y: .799999952, z: 0}
     - {x: 1.8499999, y: .799999952, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .0996113271, y: .367188483}
-    - {x: .0996113271, y: .436522454}
-    - {x: .191404298, y: .367188483}
-    - {x: .191404298, y: .436522454}
+    - {x: .839845717, y: .399415046}
+    - {x: .978513658, y: .399415046}
+    - {x: .839845717, y: .445311517}
+    - {x: .978513658, y: .445311517}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3225,14 +3810,17 @@ MonoBehaviour:
     regionY: 160
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/44
     boundsData:
@@ -3247,13 +3835,17 @@ MonoBehaviour:
     - {x: 1.8499999, y: -1.85000002, z: 0}
     - {x: -2, y: -.25, z: 0}
     - {x: 1.8499999, y: -.25, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .509767592, y: .221680671}
-    - {x: .509767592, y: .296874017}
-    - {x: .572263658, y: .221680671}
-    - {x: .572263658, y: .296874017}
+    - {x: .687501967, y: .485352546}
+    - {x: .687501967, y: .560545921}
+    - {x: .749998033, y: .485352546}
+    - {x: .749998033, y: .560545921}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3265,12 +3857,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/45
     boundsData:
@@ -3285,13 +3880,17 @@ MonoBehaviour:
     - {x: 1.8499999, y: -1.89999998, z: 0}
     - {x: -1.75, y: .5, z: 0}
     - {x: 1.8499999, y: .5, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .105470702, y: .264649421}
-    - {x: .246091798, y: .264649421}
-    - {x: .105470702, y: .311522454}
-    - {x: .246091798, y: .311522454}
+    - {x: .755861342, y: .209961921}
+    - {x: .896482408, y: .209961921}
+    - {x: .755861342, y: .256834954}
+    - {x: .896482408, y: .256834954}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3303,12 +3902,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/46
     boundsData:
@@ -3323,13 +3925,17 @@ MonoBehaviour:
     - {x: 1.29999995, y: -1.95000005, z: 0}
     - {x: -1, y: 1.4000001, z: 0}
     - {x: 1.29999995, y: 1.4000001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .904298842, y: .463868171}
-    - {x: .994138658, y: .463868171}
-    - {x: .904298842, y: .529295921}
-    - {x: .994138658, y: .529295921}
+    - {x: .638673842, y: .335938483}
+    - {x: .728513658, y: .335938483}
+    - {x: .638673842, y: .401366204}
+    - {x: .728513658, y: .401366204}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3341,12 +3947,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/47
     boundsData:
@@ -3361,13 +3970,17 @@ MonoBehaviour:
     - {x: 1.25, y: -1.95000005, z: 0}
     - {x: -1.35000002, y: 1.5, z: 0}
     - {x: 1.25, y: 1.5, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .580080092, y: .116211914}
-    - {x: .580080092, y: .166991204}
-    - {x: .714841783, y: .116211914}
-    - {x: .714841783, y: .166991204}
+    - {x: 1.95312509e-06, y: .125977546}
+    - {x: 1.95312509e-06, y: .176756829}
+    - {x: .134763673, y: .125977546}
+    - {x: .134763673, y: .176756829}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3379,12 +3992,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/48
     boundsData:
@@ -3399,13 +4015,17 @@ MonoBehaviour:
     - {x: 1.20000005, y: -1.95000005, z: 0}
     - {x: -1.64999998, y: 1.20000005, z: 0}
     - {x: 1.20000005, y: 1.20000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .722658217, y: .120118164}
-    - {x: .722658217, y: .175780267}
-    - {x: .845701158, y: .120118164}
-    - {x: .845701158, y: .175780267}
+    - {x: .785158217, y: .154297858}
+    - {x: .785158217, y: .209959954}
+    - {x: .908201158, y: .154297858}
+    - {x: .908201158, y: .209959954}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3417,12 +4037,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/49
     boundsData:
@@ -3437,13 +4060,17 @@ MonoBehaviour:
     - {x: .0499999523, y: 0, z: 0}
     - {x: 0, y: .0499999523, z: 0}
     - {x: .0499999523, y: .0499999523, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: 1.00195503, y: .00195410149}
-    - {x: .996091783, y: .00195410149}
-    - {x: 1.00195503, y: -.000977539108}
-    - {x: .996091783, y: -.000977539108}
+    - {x: .570314467, y: .054688476}
+    - {x: .572263658, y: .054688476}
+    - {x: .570314467, y: .0556630865}
+    - {x: .572263658, y: .0556630865}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3455,12 +4082,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/50
     boundsData:
@@ -3475,13 +4105,17 @@ MonoBehaviour:
     - {x: 1.45000005, y: -1.95000005, z: 0}
     - {x: -.700000048, y: 1.70000005, z: 0}
     - {x: 1.45000005, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .910158217, y: .00195410149}
-    - {x: .994138658, y: .00195410149}
-    - {x: .910158217, y: .0732412115}
-    - {x: .994138658, y: .0732412115}
+    - {x: .755861342, y: .330079108}
+    - {x: .839841783, y: .330079108}
+    - {x: .755861342, y: .401366204}
+    - {x: .839841783, y: .401366204}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3493,12 +4127,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/51
     boundsData:
@@ -3513,13 +4150,17 @@ MonoBehaviour:
     - {x: 1.5, y: -1.95000005, z: 0}
     - {x: -.899999976, y: 1.6500001, z: 0}
     - {x: 1.5, y: 1.6500001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .00390820298, y: .197266608}
-    - {x: .0976542979, y: .197266608}
-    - {x: .00390820298, y: .267577142}
-    - {x: .0976542979, y: .267577142}
+    - {x: .896486342, y: .228516608}
+    - {x: .990232408, y: .228516608}
+    - {x: .896486342, y: .298827142}
+    - {x: .990232408, y: .298827142}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3531,12 +4172,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/52
     boundsData:
@@ -3551,13 +4195,17 @@ MonoBehaviour:
     - {x: 1.70000005, y: -1.95000005, z: 0}
     - {x: -.899999976, y: 1.6500001, z: 0}
     - {x: 1.70000005, y: 1.6500001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .00390820298, y: .080079101}
-    - {x: .00390820298, y: .130858392}
-    - {x: .144529298, y: .080079101}
-    - {x: .144529298, y: .130858392}
+    - {x: .720705092, y: .0556650385}
+    - {x: .822263658, y: .0556650385}
+    - {x: .720705092, y: .125975579}
+    - {x: .822263658, y: .125975579}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3567,14 +4215,17 @@ MonoBehaviour:
     regionY: 80
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/53
     boundsData:
@@ -3589,13 +4240,17 @@ MonoBehaviour:
     - {x: 1.5, y: -1.89999998, z: 0}
     - {x: -1.10000002, y: 1.54999995, z: 0}
     - {x: 1.5, y: 1.54999995, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .580080092, y: .116211914}
-    - {x: .580080092, y: .166991204}
-    - {x: .714841783, y: .116211914}
-    - {x: .714841783, y: .166991204}
+    - {x: .134767577, y: .125977546}
+    - {x: .134767577, y: .176756829}
+    - {x: .269529283, y: .125977546}
+    - {x: .269529283, y: .176756829}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3607,12 +4262,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/54
     boundsData:
@@ -3627,13 +4285,17 @@ MonoBehaviour:
     - {x: 1, y: -1.95000005, z: 0}
     - {x: -.950000048, y: 1.6500001, z: 0}
     - {x: 1, y: 1.6500001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .0878925771, y: .579102516}
-    - {x: .164060548, y: .579102516}
-    - {x: .0878925771, y: .649413109}
-    - {x: .164060548, y: .649413109}
+    - {x: .0781269521, y: .559571266}
+    - {x: .154294923, y: .559571266}
+    - {x: .0781269521, y: .629881859}
+    - {x: .154294923, y: .629881859}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3645,12 +4307,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/55
     boundsData:
@@ -3665,13 +4330,17 @@ MonoBehaviour:
     - {x: 1, y: -1.95000005, z: 0}
     - {x: -.950000048, y: 1.6500001, z: 0}
     - {x: 1, y: 1.6500001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .0878925771, y: .579102516}
-    - {x: .164060548, y: .579102516}
-    - {x: .0878925771, y: .649413109}
-    - {x: .164060548, y: .649413109}
+    - {x: .0781269521, y: .559571266}
+    - {x: .154294923, y: .559571266}
+    - {x: .0781269521, y: .629881859}
+    - {x: .154294923, y: .629881859}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3683,12 +4352,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/56
     boundsData:
@@ -3703,13 +4375,17 @@ MonoBehaviour:
     - {x: 1, y: -1.95000005, z: 0}
     - {x: -.799999952, y: 1.70000005, z: 0}
     - {x: 1, y: 1.70000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .660158217, y: .710938454}
-    - {x: .660158217, y: .746092796}
-    - {x: .802732408, y: .710938454}
-    - {x: .802732408, y: .746092796}
+    - {x: .496095717, y: .559571266}
+    - {x: .496095717, y: .594725609}
+    - {x: .638669908, y: .559571266}
+    - {x: .638669908, y: .594725609}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3721,12 +4397,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/57
     boundsData:
@@ -3741,13 +4420,17 @@ MonoBehaviour:
     - {x: 1.0999999, y: -1.95000005, z: 0}
     - {x: -.75, y: 1.6500001, z: 0}
     - {x: 1.0999999, y: 1.6500001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .580080092, y: .676758766}
-    - {x: .652341783, y: .676758766}
-    - {x: .580080092, y: .747069359}
-    - {x: .652341783, y: .747069359}
+    - {x: .824220717, y: .602540016}
+    - {x: .824220717, y: .638670921}
+    - {x: .964841783, y: .602540016}
+    - {x: .964841783, y: .638670921}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3757,14 +4440,17 @@ MonoBehaviour:
     regionY: 80
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/58
     boundsData:
@@ -3779,13 +4465,17 @@ MonoBehaviour:
     - {x: 1.29999995, y: -1.85000002, z: 0}
     - {x: -1.04999995, y: .0999999046, z: 0}
     - {x: 1.29999995, y: .0999999046, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .904298842, y: .727540016}
-    - {x: .996091783, y: .727540016}
-    - {x: .904298842, y: .765624046}
-    - {x: .996091783, y: .765624046}
+    - {x: .496095717, y: .594727516}
+    - {x: .587888658, y: .594727516}
+    - {x: .496095717, y: .632811546}
+    - {x: .587888658, y: .632811546}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3797,12 +4487,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/59
     boundsData:
@@ -3817,13 +4510,17 @@ MonoBehaviour:
     - {x: .849999905, y: -1.89999998, z: 0}
     - {x: -1.39999998, y: 0, z: 0}
     - {x: .849999905, y: 0, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .904298842, y: .769532204}
-    - {x: .992185533, y: .769532204}
-    - {x: .904298842, y: .806639671}
-    - {x: .992185533, y: .806639671}
+    - {x: .388673842, y: .608399391}
+    - {x: .476560533, y: .608399391}
+    - {x: .388673842, y: .645506859}
+    - {x: .476560533, y: .645506859}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3835,12 +4532,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/60
     boundsData:
@@ -3855,13 +4555,17 @@ MonoBehaviour:
     - {x: 1.20000005, y: -1.95000005, z: 0}
     - {x: -1, y: 1.0999999, z: 0}
     - {x: 1.20000005, y: 1.0999999, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .486330092, y: .624024391}
-    - {x: .572263658, y: .624024391}
-    - {x: .486330092, y: .683592796}
-    - {x: .572263658, y: .683592796}
+    - {x: .824220717, y: .559571266}
+    - {x: .824220717, y: .602538109}
+    - {x: .943357408, y: .559571266}
+    - {x: .943357408, y: .602538109}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3871,14 +4575,17 @@ MonoBehaviour:
     regionY: 0
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/61
     boundsData:
@@ -3893,13 +4600,17 @@ MonoBehaviour:
     - {x: 1.20000005, y: -1.95000005, z: 0}
     - {x: -1, y: 1.0999999, z: 0}
     - {x: 1.20000005, y: 1.0999999, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .486330092, y: .624024391}
-    - {x: .572263658, y: .624024391}
-    - {x: .486330092, y: .683592796}
-    - {x: .572263658, y: .683592796}
+    - {x: .824220717, y: .559571266}
+    - {x: .824220717, y: .602538109}
+    - {x: .943357408, y: .559571266}
+    - {x: .943357408, y: .602538109}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3909,14 +4620,17 @@ MonoBehaviour:
     regionY: 0
     regionW: 80
     regionH: 80
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/62
     boundsData:
@@ -3931,13 +4645,17 @@ MonoBehaviour:
     - {x: .950000048, y: -1.79999995, z: 0}
     - {x: -1.04999995, y: 1.95000005, z: 0}
     - {x: .950000048, y: 1.95000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .890626967, y: .533204079}
-    - {x: .968748033, y: .533204079}
-    - {x: .890626967, y: .606444359}
-    - {x: .968748033, y: .606444359}
+    - {x: 1.95312509e-06, y: .440430671}
+    - {x: .0781230479, y: .440430671}
+    - {x: 1.95312509e-06, y: .513670921}
+    - {x: .0781230479, y: .513670921}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3949,12 +4667,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/63
     boundsData:
@@ -3969,13 +4690,17 @@ MonoBehaviour:
     - {x: 1.45000005, y: -1.70000005, z: 0}
     - {x: -.899999976, y: 1.95000005, z: 0}
     - {x: 1.45000005, y: 1.95000005, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .828126967, y: .231446296}
-    - {x: .828126967, y: .277342767}
-    - {x: .970701158, y: .231446296}
-    - {x: .970701158, y: .277342767}
+    - {x: .234376952, y: .204102546}
+    - {x: .326169908, y: .204102546}
+    - {x: .234376952, y: .275389642}
+    - {x: .326169908, y: .275389642}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -3985,14 +4710,17 @@ MonoBehaviour:
     regionY: 0
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/64
     boundsData:
@@ -4007,13 +4735,17 @@ MonoBehaviour:
     - {x: .950000048, y: -1.70000005, z: 0}
     - {x: -1.14999998, y: 1.8499999, z: 0}
     - {x: .950000048, y: 1.8499999, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .199220702, y: .410157233}
-    - {x: .199220702, y: .451170892}
-    - {x: .337888658, y: .410157233}
-    - {x: .337888658, y: .451170892}
+    - {x: .386720717, y: .397461921}
+    - {x: .468748033, y: .397461921}
+    - {x: .386720717, y: .466795892}
+    - {x: .468748033, y: .466795892}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -4023,14 +4755,17 @@ MonoBehaviour:
     regionY: 0
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/65
     boundsData:
@@ -4045,13 +4780,17 @@ MonoBehaviour:
     - {x: 1.29999995, y: -1.85000002, z: 0}
     - {x: -1.5, y: 1.6500001, z: 0}
     - {x: 1.29999995, y: 1.6500001, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .763673842, y: .0615244135}
-    - {x: .763673842, y: .116209961}
-    - {x: .900388658, y: .0615244135}
-    - {x: .900388658, y: .116209961}
+    - {x: .433595717, y: .054688476}
+    - {x: .433595717, y: .109374024}
+    - {x: .570310533, y: .054688476}
+    - {x: .570310533, y: .109374024}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -4063,12 +4802,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/66
     boundsData:
@@ -4083,13 +4825,17 @@ MonoBehaviour:
     - {x: 1.20000005, y: -1.25, z: 0}
     - {x: -1.25, y: 2, z: 0}
     - {x: 1.20000005, y: 2, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: .806642592, y: .336915046}
-    - {x: .806642592, y: .384764642}
-    - {x: .933591783, y: .336915046}
-    - {x: .933591783, y: .384764642}
+    - {x: .208986327, y: .343750983}
+    - {x: .304685533, y: .343750983}
+    - {x: .208986327, y: .407225579}
+    - {x: .304685533, y: .407225579}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -4099,14 +4845,17 @@ MonoBehaviour:
     regionY: 0
     regionW: 80
     regionH: 80
-    flipped: 1
+    flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/67
     boundsData:
@@ -4121,13 +4870,17 @@ MonoBehaviour:
     - {x: .0499999523, y: 0, z: 0}
     - {x: 0, y: .0499999523, z: 0}
     - {x: .0499999523, y: .0499999523, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: 1.00195503, y: .00195410149}
-    - {x: .996091783, y: .00195410149}
-    - {x: 1.00195503, y: -.000977539108}
-    - {x: .996091783, y: -.000977539108}
+    - {x: .570314467, y: .054688476}
+    - {x: .572263658, y: .054688476}
+    - {x: .570314467, y: .0556630865}
+    - {x: .572263658, y: .0556630865}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -4139,12 +4892,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/68
     boundsData:
@@ -4159,13 +4915,17 @@ MonoBehaviour:
     - {x: .0499999523, y: 0, z: 0}
     - {x: 0, y: .0499999523, z: 0}
     - {x: .0499999523, y: .0499999523, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
     tangents: []
     uvs:
-    - {x: 1.00195503, y: .00195410149}
-    - {x: .996091783, y: .00195410149}
-    - {x: 1.00195503, y: -.000977539108}
-    - {x: .996091783, y: -.000977539108}
+    - {x: .570314467, y: .054688476}
+    - {x: .572263658, y: .054688476}
+    - {x: .570314467, y: .0556630865}
+    - {x: .572263658, y: .0556630865}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -4177,12 +4937,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 0
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   - name: bat_0/69
     boundsData:
@@ -4197,13 +4960,17 @@ MonoBehaviour:
     - {x: .549999952, y: -1.89999998, z: 0}
     - {x: -1.60000002, y: .299999952, z: 0}
     - {x: .549999952, y: .299999952, z: 0}
-    normals: []
+    normals:
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
+    - {x: 0, y: 0, z: -.99999994}
     tangents: []
     uvs:
-    - {x: .810548842, y: .727540016}
-    - {x: .810548842, y: .769530296}
-    - {x: .896482408, y: .727540016}
-    - {x: .896482408, y: .769530296}
+    - {x: .638673842, y: .560547829}
+    - {x: .638673842, y: .602538109}
+    - {x: .724607408, y: .560547829}
+    - {x: .724607408, y: .602538109}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
     materialId: 0
@@ -4215,12 +4982,15 @@ MonoBehaviour:
     regionH: 80
     flipped: 1
     complexGeometry: 0
+    physicsEngine: 0
     colliderType: 0
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
     attachPoints: []
   premultipliedAlpha: 0
   material: {fileID: 0}
@@ -4228,6 +4998,9 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 3e64ae0e4fa746146b9ca2228fbbef4f, type: 2}
   textures:
   - {fileID: 2800000, guid: 08983f38e9516e941ac0af9b9ebcf48f, type: 3}
+  pngTextures: []
+  textureFilterMode: 0
+  textureMipMaps: 0
   allowMultipleAtlases: 0
   spriteCollectionGUID: dc5acbba8f4cb8d46ae21bdab5a58abc
   spriteCollectionName: bat
@@ -4235,7 +5008,7 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 10
-  buildKey: 1272816894
+  buildKey: 1668997753
   dataGuid: e5f77517184b3074192d4ee50ada8de3
   managedSpriteCollection: 0
   hasPlatformData: 0

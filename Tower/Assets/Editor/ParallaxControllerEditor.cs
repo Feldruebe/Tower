@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using System.Collections;
+using Tower.Parallax;
 
 [CustomEditor(typeof(ParallaxController))]
 public class ParallaxControllerEditor : Editor

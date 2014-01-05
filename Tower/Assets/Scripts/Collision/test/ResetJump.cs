@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Tower;
+using Tower.Movment;
 
 public class ResetJump : MonoBehaviour {
 

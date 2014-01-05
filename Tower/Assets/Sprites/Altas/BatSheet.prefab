@@ -71,6 +71,7 @@ MonoBehaviour:
     spriteCollection: {fileID: 0}
   managedSpriteCollection: 0
   loadable: 0
+  atlasFormat: 0
   maxTextureSize: 2048
   forceTextureSize: 0
   forcedTextureWidth: 2048
@@ -99,6 +100,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -138,6 +140,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -177,6 +180,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -216,6 +220,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -255,6 +260,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -294,6 +300,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -316,7 +323,10 @@ MonoBehaviour:
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
     colliderColor: 0
-    attachPoints: []
+    attachPoints:
+    - name: Run1
+      position: {x: 58, y: 50, z: 0}
+      angle: -48
   - name: Bat/6
     disableTrimming: 0
     additive: 0
@@ -333,6 +343,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -355,7 +366,10 @@ MonoBehaviour:
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
     colliderColor: 0
-    attachPoints: []
+    attachPoints:
+    - name: Run1
+      position: {x: 52, y: 55, z: 0}
+      angle: -70
   - name: Bat/7
     disableTrimming: 0
     additive: 0
@@ -372,6 +386,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -394,7 +409,10 @@ MonoBehaviour:
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
     colliderColor: 0
-    attachPoints: []
+    attachPoints:
+    - name: Run1
+      position: {x: 28, y: 51, z: 0}
+      angle: -98
   - name: Bat/8
     disableTrimming: 0
     additive: 0
@@ -411,6 +429,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -450,6 +469,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -489,6 +509,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -528,6 +549,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -567,6 +589,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -606,6 +629,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -645,6 +669,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -684,6 +709,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -723,6 +749,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -762,6 +789,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -801,6 +829,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -840,6 +869,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -879,6 +909,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -918,6 +949,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -957,6 +989,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -996,6 +1029,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -1035,6 +1069,7 @@ MonoBehaviour:
     dice: 0
     diceUnitX: 64
     diceUnitY: 64
+    diceFilter: 0
     pad: 1
     extraPadding: 0
     source: 0
@@ -1066,6 +1101,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 910aedd075bee7a4186861d85feef9c2, type: 2}
   atlasTextures:
   - {fileID: 2800000, guid: 551e7079322e3284bb17d358fab79c15, type: 3}
+  atlasTextureFiles: []
   useTk2dCamera: 0
   targetHeight: 640
   targetOrthoSize: 10
@@ -1077,13 +1113,17 @@ MonoBehaviour:
     height: 640
   globalScale: 1
   globalTextureRescale: 1
-  attachPointTestSprites: []
+  attachPointTestSprites:
+  - attachPointName: Run1
+    spriteCollection: {fileID: 11400000, guid: e5f77517184b3074192d4ee50ada8de3, type: 2}
+    spriteId: 10
   pixelPerfectPointSampled: 0
   filterMode: 0
   wrapMode: 1
   userDefinedTextureSettings: 0
   mipmapEnabled: 0
   anisoLevel: 1
+  physicsEngine: 0
   physicsDepth: .100000001
   disableTrimming: 0
   normalGenerationMode: 1

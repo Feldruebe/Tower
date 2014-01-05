@@ -1,14 +1,33 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Tower.PlayerInput.Actions;
+using Tower.Movment.Helper;
+using Tower.PlayerInput.Helper;
+using UnityEditor;
 
-namespace Tower
+namespace Tower.Movment
 {
+
+    public class EnumFlagsAttribute : PropertyAttribute
+    {
+        public EnumFlagsAttribute() { }
+    }
+
+    [CustomPropertyDrawer(typeof(EnumFlagsAttribute))]
+    public class EnumFlagsAttributeDrawer : PropertyDrawer
+    {
+        public override void OnGUI(Rect _position, SerializedProperty _property, GUIContent _label)
+        {
+            _property.intValue = EditorGUI.MaskField(_position, _label, _property.intValue, _property.enumNames);
+        }
+    }
+
     public class MoveMotor : MonoBehaviour
     {
-
         public Vector3 direction;
-        public List<AtomicAction> movesToDo = new List<AtomicAction>();
+        public AtomicAction currentAtomicAction;
+        public List<AtomicAction> comboActions = new List<AtomicAction>();
         public float speed;
         public float jumpForce;
         public LayerMask layerMask;
@@ -18,15 +37,14 @@ namespace Tower
         public float motorIsBlockedTime = 0;
         public bool resetJump = false;
         public MovmentState movmentState;
-
-        public bool doesAction = false;
-
+        [SerializeField]
+        [EnumFlagsAttribute]
+        public ActionState actionState = ActionState.AllAllowed;
         private bool wasGrounded = false;
         
         // Use this for initialization
         void Start()
         {
-            
         }
 
         void Update()
@@ -37,31 +55,51 @@ namespace Tower
 
         void FixedUpdate()
         {
-            if(!doesAction)
+            if ((actionState & ActionState.NoMovement) == 0)
+            {
+                direction = direction * Time.deltaTime * speed;
                 movmentState = MovmentState.Stand;
+            }
+            else
+            {
+                direction = Vector3.zero;
+            }
+
             if (TestIfGrounded())
             {
+                if(!wasGrounded)
+                {
+                    
+                }
+
                 wasGrounded = true;
                 fallSpeed = -gravityMax / 2.0f;
             }
             else
             {
-                movmentState = MovmentState.Jump;
+                if (currentAtomicAction == null &&
+                    comboActions.Count == 0)
+                {
+                    movmentState = MovmentState.Jump;
+                }
             }
 
             fallSpeed -= gravity;
-            if (!doesAction)
-                direction = direction * Time.deltaTime * speed;
-            else
-                direction = Vector3.zero;
             direction = new Vector3(direction.x, fallSpeed, direction.z);
 
-            DoAction();
-            if (!wasGrounded && TestIfGrounded())
+            // only Do Atomic Action if no Action is playing
+            if (comboActions.Count > 0)
             {
-                direction *= 0.6f;
+                currentAtomicAction = null;
+                actionState = ActionState.AllAllowed;
 
+                DoComboAction();
             }
+            else
+            {
+                DoAtomicAction();
+            }
+
             if (!resetJump)
             {
                 direction = new Vector3(Mathf.Clamp(direction.x, -20, 20),
@@ -79,15 +117,29 @@ namespace Tower
 
         }
 
-        private void DoAction()
+        private void DoAtomicAction()
         {
-            if (movesToDo.Count == 0 || motorIsBlockedTime > 0)
+            if (currentAtomicAction == null || motorIsBlockedTime > 0)
                 return;
 
-            doesAction = movesToDo[0].UpdateCore(Time.deltaTime);
-            if (!doesAction)
+            ActionResult actionResult = currentAtomicAction.UpdateCore(Time.deltaTime, actionState);
+            actionState = actionResult.ActionState;
+            if (actionResult.ActionFinished)
             {
-                movesToDo.RemoveAt(0);
+                currentAtomicAction = null;
+            }
+        }
+
+        private void DoComboAction()
+        {
+            if (comboActions.Count > 0 || motorIsBlockedTime > 0)
+                return;
+
+            ActionResult actionResult = comboActions[0].UpdateCore(Time.deltaTime, actionState);
+            actionState = actionResult.ActionState;
+            if (actionResult.ActionFinished)
+            {
+                comboActions.RemoveAt(0);
             }
 
         }
@@ -112,9 +164,14 @@ namespace Tower
             }
         }
 
-        internal void AddAction(AtomicAction action)
+        internal void SetNextAtomicAction(AtomicAction action)
         {
-            movesToDo.Add(action);
+            currentAtomicAction = action;
+        }
+
+        internal void AddComboAction(AtomicAction action)
+        {
+            comboActions.Add(action);
         }
 
         public bool TestIfGrounded()

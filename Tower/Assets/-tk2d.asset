@@ -819,3 +819,82 @@ MonoBehaviour:
     loadable: 0
     assetName: 
     version: 3
+  - name: SpineboyAtlas
+    spriteCollectionGUID: e04ef676426682f4fbe2b2e248bc3dc4
+    spriteCollectionDataGUID: 4cd6560d5de81b240b7e7d9beaa3e2f0
+    spriteNames:
+    - left-ankle
+    - left-upper-leg
+    - head
+    - left-hand
+    - right-foot
+    - right-lower-leg
+    - neck
+    - left-arm
+    - left-pant-bottom
+    - right-shoulder
+    - right-ankle
+    - eyes-closed
+    - right-pant-bottom
+    - left-lower-leg
+    - right-hand
+    - torso
+    - pelvis
+    - eyes
+    - right-foot-idle
+    - left-shoulder
+    - right-arm
+    - right-upper-leg
+    - left-foot
+    spriteTextureGUIDs:
+    - 01e73ca366ce3b54bb4087bf34ea3780
+    - 110675c0d21d411469aff96dc86f82b9
+    - 14fa7cc064f366c46ba083cc8b3f6588
+    - 4164e461833c7ad4991d0df2f53506c5
+    - 4817e7545f82b79409591c3f7ab58783
+    - 4e48f3162f322954c99321c9888a56d2
+    - 5efaad89af5d0484a870721e289ba2f0
+    - 64d2ee256e7837243ae969fabe2abf13
+    - 6819bb1a487d4e7468d3cca3bc563455
+    - 95705e65b28f712498999597b1785815
+    - 96654d3edca33aa41b3e00836917fc81
+    - bab2bc2171d249048990e56ff8dc150e
+    - be58ee0714843a446b965af869f83832
+    - beb8b29b06f1b8a4bbe29f7ba3947435
+    - c8e415a8259d2a640956e800c693f696
+    - c9d347920dea372469c0bafcc27a6320
+    - da857df5d97ec254388f6aa337550084
+    - e8d06d84fe3fb0940aebd89e50186b67
+    - f4d80e5181dec264997165ae7dff99f8
+    - f54c1ea69e95f7b4686801f6e3479ae9
+    - f57516850db04ce46888c3af845cdbe1
+    - f6a659c035ea7cd4ca4b46b6f45dbe3e
+    - fdb6e092284153146b14ad82b936112c
+    spriteTextureTimeStamps:
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    - 1387778676
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

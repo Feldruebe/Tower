@@ -10,6 +10,7 @@ namespace Tower.Manager
     #region Using Directives
     using UnityEngine;
     using System.Collections;
+    using Tower.Geometry;
     #endregion // Using Directives
 
     /// <summary>
