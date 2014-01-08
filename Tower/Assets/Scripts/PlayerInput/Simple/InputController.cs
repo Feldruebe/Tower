@@ -52,8 +52,8 @@ namespace Tower.PlayerInput.Simple
 
                 if (Input.GetButtonDown("Jump"))
                 {
-                    motor.jump = true;
-                    
+                    //motor.jump = true;
+                    motor.SkillQueue.Enqueue(0);
                 }
 
                 //if (Input.GetButtonDown("Fire1"))
