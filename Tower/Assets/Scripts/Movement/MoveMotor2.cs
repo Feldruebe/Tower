@@ -114,14 +114,14 @@ namespace Tower.Movment
                                         this.FallSpeed,
                                         this.Direction.z);
 
+            direction = new Vector3(Mathf.Clamp(direction.x, -20, 20),
+                          Mathf.Clamp(direction.y, -jumpForce, jumpForce),
+                          Mathf.Clamp(direction.z, -20, 20));
+
             if (this.SkillQueue.Count > 0)
             {
                 this.UpdateSkill();
             }
-
-            direction = new Vector3(Mathf.Clamp(direction.x, -20, 20),
-                          Mathf.Clamp(direction.y, -jumpForce, jumpForce),
-                          Mathf.Clamp(direction.z, -20, 20));
 
             this.rigidbody.AddForce(this.Direction, ForceMode.VelocityChange);
         }
@@ -143,11 +143,14 @@ namespace Tower.Movment
             int skillIndex = this.SkillQueue.Peek();
 
             SkillResult result = this.Skills[skillIndex].ExecuteSkill(this);
+            print(result.completed);
 
             if(result.completed)
             {
+                this.Skills[skillIndex].Reset();
                 this.SkillQueue.Dequeue();
             }
+            print(this.SkillQueue.Count);
         }
     }
 }

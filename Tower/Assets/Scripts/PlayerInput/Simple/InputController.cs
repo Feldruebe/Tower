@@ -50,6 +50,12 @@ namespace Tower.PlayerInput.Simple
                     inputDirection.Normalize();
                 motor.direction = inputDirection;
 
+                if (motor.SkillQueue.Count > 0)
+                {
+                    int skillIndex = motor.SkillQueue.Peek();
+                    motor.Skills[skillIndex].UpdateInput();
+                }
+
                 if (Input.GetButtonDown("Jump"))
                 {
                     //motor.jump = true;
